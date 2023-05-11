@@ -1,0 +1,33 @@
+TASK 1
+a. Implement Bubble sort using a C program.
+b. Implement Selection sort using a C program.
+c. Implement Insertion Sort using a C program.
+TASK 2
+a. Implement Quick sort using a C program.
+b. Implement Merge sort using a C program.
+TASK 3
+a. Implementation of Stack operations using arrays in C.
+b. Implementation of Queue operations using arrays in C.
+TASK 4
+a. Write a c program to convert Infix to Postfix expression.
+b. Write a c program to evaluate a Postfix expression
+TASK 5
+a. Implement Circular Queue operations in C.
+TASK6
+a. Implement Single Linked List operations in C.
+TASK 7
+a. Implement Circular Linked List operations in C.
+TASK 8
+a. Implement Double Linked List operations in C.
+TASK 9
+a. Implement the following operations on Binary Search Tree.
+i. Create
+ii. Insert 
+iii. Search
+TASK 10
+a. Implement Preorder, Inorder and Postorder traversals of Binary Search Tree using 
+recursion in C.
+TASK 11
+a. Implement Depth First Traversal on graphs in C.
+TASK 12
+a. Implement Breadth First Traversal on graphs in C.
