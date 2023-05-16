@@ -1,0 +1,102 @@
+<html>
+<style>
+  p {
+    color: brown
+  }
+  pre {
+    font-family: arial
+  }
+h1 {
+    color: red;
+    font-size: 38;
+    background-color: white
+  }
+  h4 {
+    color: white
+  }
+  body {
+    background-color: black
+  }
+  form {
+    background-color: white
+  }
+  input[type="password"] {
+    color: black;
+    font-size: 28;
+    width: 500;
+    height: 30
+  }
+  input[type="text"] {
+    color: black;
+    font-size: 28;
+    width: 500;
+    height: 30
+  }
+ label {
+    color: red;
+    font-size: 32
+  }
+</style>
+<body>
+  <h1><center>USER REGISTRATION <center></h1>
+  <h4>* is mandatory</h4>
+  <form onSubmit="return val()">
+    <center>
+      <pre>
+<label>First Name<sup>*</sup>: </label> <input type="text" id="t1"><p id="p1"></p>
+<label>Second Name:<sp>*</sp>: </label> <input type="text" id="t2"><p id="p2"></p>
+<label>E-mail<sp>*</sp>: </label> <input type="text" id="t3"><p id="p3"></p>
+<label>Password<sp>*</sp>:</label> <input type="password"id="t4"><p id="p4"></p>
+<label>Confirm password<sp>*</sp>:</label> <input type="password"id="t5"><p id="p5"></p>
+<input type="submit">
+</pre>
+      </centre>
+  </form>
+</body>
+<script>
+  function val() {
+    var name1 = document.getElementById("t1").value;
+    if (name1 == "") {
+      document.getElementById("p1").innerHTML = "fill the first name";
+      return false;
+    }
+    document.getElementById("p1").innerHTML = "";
+    var name2 = document.getElementById("t2").value;
+    if (name2 == "") {
+      document.getElementById("p2").innerHTML = "fill the last name";
+      return false;
+    }
+    document.getElementById("p2").innerHTML = "";
+    var Id = document.getElementById("t3").value;
+    if (Id == "") {
+      document.getElementById("p3").innerHTML = "enter the email Id";
+      return false;
+    }
+    document.getElementById("p3").innerHTML = "";
+    var regex = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+    if (!regex.test(Id)) {
+      document.getElementById("p3").innerHTML = "incorrect emailId";
+      return false;
+    }
+    var pw1 = document.getElementById("t4").value;
+    if (pw1 == "") {
+      document.getElementById("p4").innerHTML = "enter the password";
+      return false;
+    }
+    document.getElementById("p4").innerHTML = "";
+    var pw2 = document.getElementById("t5").value;
+    if (pw2 == "") {
+      document.getElementById("p5").innerHTML = "enter the password";
+      return false;
+    }
+    document.getElementById("p5").innerHTML = "";
+    if (pw1 != pw2) {
+      document.getElementById("p5").innerHTML = "passwords doesn't match";
+      return false;
+    } else {
+      document.write("Javascript form has been submitted successfully");
+      return true;
+    }
+  }
+</script>
+</html>
