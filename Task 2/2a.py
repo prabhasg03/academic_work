@@ -19,8 +19,8 @@ for i in t:
     print(i,"",end='')
 '''Searching'''
 k=(input('\nEnter Element to search:'))
-k=float(k) if type(k)==float else str(k)
-if t.index(k)!=-1:
+k=float(k) if k.isdecimal()==True else str(k)
+if k in t:
      print("Element found at:",t.index(k)+1,"place first,occuring",t.count(k),"times" if t.count(k)>1 else"time")
 else:
      print("Element not found")
