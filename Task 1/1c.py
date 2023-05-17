@@ -3,11 +3,11 @@ age."""
 #program
 n=int(input('Size Of List:'))
 list=[]
-l=[]
 for i in range(0,n):
-    a,b=map(str,input().split())
+    print("Enter Person-",i+1,'details:')
+    a=input("Enter Name:")
+    b=input("Enter Age:")
     s=[a,int(b)]
     list.append(s)
-    l.append(s)
 list=sorted(list,key=lambda t:t[1])
 print("Sorting of list by age:\n",list)

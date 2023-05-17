@@ -12,6 +12,6 @@ def iter_factr(n):
         fact=fact*i
     return fact
 n=int(input("Enter Number:"))
-print("Factorial of",n,"Using Iterative:",iter_factr(n))
+print("Factorial of",n,"using Iterative:",iter_factr(n))
 print("Factorial of",n,"using Recursion:",rec_factr(n))
 print("Factorial of",n,"using Inbuilt Function:",math.factorial(n))
