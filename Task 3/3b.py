@@ -1,3 +1,5 @@
+'''3b. Write a Python program that asks the user for a filename, and then prints the number of
+characters, words, and lines in the file.'''
 fn=input('Enter File Name:')
 data=open(fn,"r")
 data=(data.read())
