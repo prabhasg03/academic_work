@@ -8,7 +8,7 @@ try:
     print('Eligible to vote')
 except ValueError:
     print("Enter a number in age")
-except Exception:
-      print(Exception)
+except Exception as e:
+      print(str(e))
 finally:
         print('You are welcome')
