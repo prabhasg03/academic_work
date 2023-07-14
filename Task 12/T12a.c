@@ -1,4 +1,5 @@
-/*Simulate first in first out Page Replacement Algorithm.*/
+/*To Simulate Sequential file allocation Strategy*/
+//Program:
 #include<stdio.h>
 #include<string.h>
 
