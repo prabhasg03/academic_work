@@ -53,3 +53,25 @@ int main() {
 
     return 0;
 }
+/*
+OUTPUT:
+/tmp/UpFJzvaGSK.o
+Enter no. of Files: 2
+Enter file 1 name: F1
+Enter file 1 size (in kb): 20
+Enter Starting block of 1: 2
+Enter blocksize of File 1 (in bytes): 500
+Enter file 2 name: F2
+Enter file 2 size (in kb): 10
+Enter Starting block of 2: 3
+Enter blocksize of File 2 (in bytes): 300
+Enter the Filename: F2
+Fname	Start	Nblocks	Blocks
+
+
+F2	3	34	3->4->5->6->7->8->9->10->11->12->13->14->15->16->17->18->19->20->21->22->23->24->25->26->27->28->29->30->31->32->33->34->35->36->
+
+
+Do you want to continue (Y/n)? n
+
+*/
