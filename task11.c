@@ -276,4 +276,93 @@ int main() {
     
     return 0;
 }
+/*
+Output:
+Enter the number of cylinders: 20
+Enter the number of requests: 4
+Enter current position: 10
+Enter the request queue: 1 6 18 5
+DISK SCHEDULING ALGORITHMS
+1. FCFS
+2. SSTF
+3. SCAN
+4. C-SCAN
+5. LOOK
+6. C-LOOK
+Enter choice: 1
+FCFS:
+Scheduling services the request in the order that follows:
+10	1	6	18	5	
+Total Head Movement: 39 Cylinders
 
+Do you want to continue (1 to continue)? 1
+DISK SCHEDULING ALGORITHMS
+1. FCFS
+2. SSTF
+3. SCAN
+4. C-SCAN
+5. LOOK
+6. C-LOOK
+Enter choice: 2
+SSTF:
+Scheduling services the request in the order that follows:
+10	6	5	1	18	
+Total Head Movement: 26 Cylinders
+
+Do you want to continue (1 to continue)? 1
+DISK SCHEDULING ALGORITHMS
+1. FCFS
+2. SSTF
+3. SCAN
+4. C-SCAN
+5. LOOK
+6. C-LOOK
+Enter choice: 3
+SCAN:
+Scheduling services the request in the order that follows:
+10	5	10	5	10	1	0	18	
+Total Head Movement: 38 Cylinders
+
+Do you want to continue (1 to continue)? 1
+DISK SCHEDULING ALGORITHMS
+1. FCFS
+2. SSTF
+3. SCAN
+4. C-SCAN
+5. LOOK
+6. C-LOOK
+Enter choice: 4
+C-SCAN:
+Scheduling Services the request in the order that follows:
+10	18	19	0	1	5	6	
+Total Head Movement: 15 Cylinders
+
+Do you want to continue (1 to continue)? 1
+DISK SCHEDULING ALGORITHMS
+1. FCFS
+2. SSTF
+3. SCAN
+4. C-SCAN
+5. LOOK
+6. C-LOOK
+Enter choice: 5
+LOOK:
+Scheduling services the request in the order as follows:
+10	5	5	1	18	
+Total Head Movement: 36 Cylinders
+Do you want to continue (1 to continue)? 1
+DISK SCHEDULING ALGORITHMS
+1. FCFS
+2. SSTF
+3. SCAN
+4. C-SCAN
+5. LOOK
+6. C-LOOK
+Enter choice: 6
+C-LOOK:
+Scheduling Services the request in the order that follows:
+10	18	1	5	6	
+Total Head Movement: 30 Cylinders
+
+Do you want to continue (1 to continue)? 0
+*/
