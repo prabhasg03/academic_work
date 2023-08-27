@@ -10,7 +10,10 @@
  - [c.)Write a Java Program that reads a line of integers, and then displays each integer and the sum of all the integers (Use StringTokenizer class ofjava.util)](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%202/T2c.java)
 ## [TASK 3](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%203)
  - Write java programs that uses the following keywords
-   - a.)This b.)super c.)static d.)final
+   - [a.)This](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%203/T3a.java)
+   - [b.)super](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%203/T3b.java)
+   - c.)static
+   - d.)final
 ## [TASK 4](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%204)
  - a. Write a java program to implement methodoverriding
  - b. Write a java program to implement dynamic method dispatch.
