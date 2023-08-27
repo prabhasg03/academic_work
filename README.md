@@ -1,10 +1,10 @@
-#3 TASK 1
+## [TASK 1](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%201)
 - Write java programs that implement the following
  - a.)Constructor
  - b.)Parameterized constructor
  - c.)Method overloading
  - d.)Construct or overloading.
-## TASK 2
+## [TASK 2](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%202)
  - a.)Write a Java program that checks whether a given string is a palindrome or not. Ex: MADAM is apalindrome.
  - b.)Write a Java program for sorting a given list of names in ascending order.
  - c.)Write a Java Program that reads a line of integers, and then displays each integer and the sum of all the integers (Use StringTokenizer class ofjava.util)
