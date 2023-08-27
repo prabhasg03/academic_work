@@ -1,13 +1,13 @@
 ## [TASK 1](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%201)
 - Write java programs that implement the following
- - a.)Constructor
- - b.)Parameterized constructor
- - c.)Method overloading
- - d.)Construct or overloading.
+ - [a.)Constructor](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%201/DefaultConstructor.java)
+ - [b.)Parameterized constructor](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%201/ParamConstructor.java)
+ - [c.)Method overloading](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%201/MethodOverloading.java)
+ - [d.)Construct overloading.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%201/ConstructOverload.java)
 ## [TASK 2](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%202)
- - a.)Write a Java program that checks whether a given string is a palindrome or not. Ex: MADAM is apalindrome.
- - b.)Write a Java program for sorting a given list of names in ascending order.
- - c.)Write a Java Program that reads a line of integers, and then displays each integer and the sum of all the integers (Use StringTokenizer class ofjava.util)
+ - [a.)Write a Java program that checks whether a given string is a palindrome or not. Ex: MADAM is apalindrome.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%202/T2a.java)
+ - [b.)Write a Java program for sorting a given list of names in ascending order.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%202/T2b.java)
+ - [c.)Write a Java Program that reads a line of integers, and then displays each integer and the sum of all the integers (Use StringTokenizer class ofjava.util)](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%202/T2c.java)
 ## [TASK 3](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%203)
  - Write java programs that uses the following keywords
    - a.)This b.)super c.)static d.)final
