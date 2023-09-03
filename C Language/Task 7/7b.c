@@ -3,8 +3,9 @@
 #include<stdio.h>
 void main()
 {
-int a[5][5],b[5][5],c[5][5],r1,r2,c1,c2,i,j,k;
+int r1,r2,c1,c2,i,j,k;
 scanf("%d %d %d %d",&r1,&c1,&r2,&c2);
+int a[r1][c1],b[r2][c2],c[r1][c2];
 if(c1==r2)
 {
 for(i=0;i<r1;i++)
