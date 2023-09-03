@@ -3,9 +3,10 @@
 #include<stdio.h>
 void main()
 {
-int r1,r2,c1,c2,a[6][6],b[6][6],c[6][6],i,j;
+int r1,r2,c1,c2,i,j;
 scanf("%d%d",&r1,&c1);
 scanf("%d%d",&r2,&c2);
+a[r1][c1],b[r2][c2],c[r1][c1],
 if(r1==r2&&c1==c2)
 {
 for(i=0;i<r1;i++)
