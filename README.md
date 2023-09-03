@@ -23,13 +23,13 @@
 # TASK 5
 - a. Write a C program to display the following patterns.
 - i) [1
-     2 3          
-     4 5 6       
-     7 8 9 10]()
+      2 3          
+      4 5 6       
+      7 8 9 10]()
 - ii)[  1
-      2 3
-     4 5 6
-    7 8 9 10]()
+       2 3
+      4 5 6
+     7 8 9 10]()
 - b. [Write a C program to generate the prime numbers between x and y where x and y are starting and ending values to be supplied by the user.]()
 - c. [Write a C program to calculate the following Sum: 
     -i. Sum=1+x/1!-x2/2!+x3/3!-x4/4!+…..xn/n!]()
