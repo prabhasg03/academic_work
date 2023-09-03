@@ -3,36 +3,46 @@
 #include<stdio.h>
 void main()
 {
-int r1,r2,c1,c2,a[6][6],b[6][6],c[6][6],i,j;
-scanf("%d%d",&r1,&c1);
-scanf("%d%d",&r2,&c2);
-if(r1==r2&&c1==c2)
+int a[5][5],b[5][5],c[5][5],r1,r2,c1,c2,i,j,k;
+scanf("%d %d %d %d",&r1,&c1,&r2,&c2);
+if(c1==r2)
 {
 for(i=0;i<r1;i++)
 {
 for(j=0;j<c1;j++)
+{
 scanf("%d",&a[i][j]);
+}
 }
 for(i=0;i<r2;i++)
 {
 for(j=0;j<c2;j++)
+{
 scanf("%d",&b[i][j]);
 }
-for(i=0;i<r1;i++)
-{
-for(j=0;j<c1;j++)
-c[i][j]=a[i][j]+b[i][j];
 }
-printf("\nresultant matrix is:");
 for(i=0;i<r1;i++)
 {
-for(j=0;j<c1;j++)
+for(j=0;j<c2;j++)
+{
+c[i][j]=0;
+for(k=0;k<c1;k++)
+{
+c[i][j]=c[i][j]+(a[i][k]*b[k][j]);
+}
+}
+}
+printf("\n resultant matrix is:");
+for(i=0;i<r1;i++)
+{
+printf("\n");
+for(j=0;j<c2;j++)
 {
 printf("%d ",c[i][j]);
 }
-printf("\n");
 }
 }
-else
-printf("matrix addition is not possible");
+else{
+printf("\n matrix multiplication is not possible");
+}
 }
