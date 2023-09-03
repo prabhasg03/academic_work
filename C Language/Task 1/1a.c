@@ -3,19 +3,35 @@
 #include <stdio.h>
 
 int main() {
-    int a = 5, b = 3;
-    printf("a + b = %d\n", a + b);
-    printf("a - b = %d\n", a - b);
-    printf("a * b = %d\n", a * b);
-    printf("a / b = %d\n", a / b);
-    printf("a %% b = %d\n", a % b);
-    printf("a++ = %d\n", a++);
-    printf("--b = %d\n", --b);
-    printf("a == b: %s\n", a == b ? "true" : "false");
-    printf("a != b: %s\n", a != b ? "true" : "false");
-    printf("a > b: %s\n", a > b ? "true" : "false");
-    printf("a < b: %s\n", a < b ? "true" : "false");
-    printf("a >= b: %s\n", a >= b ? "true" : "false");
-    printf("a <= b: %s\n", a <= b ? "true" : "false");
-    return 0;
+  int a, b;
+  char operator;
+
+  printf("Enter two integers: ");
+  scanf("%d %d", &a, &b);
+
+  printf("Enter an operator (+, -, *, /, %): ");
+  scanf(" %c", &operator);
+
+  switch (operator) {
+    case '+':
+      printf("%d %c %d = %d\n", a, operator, b, a + b);
+      break;
+    case '-':
+      printf("%d %c %d = %d\n", a, operator, b, a - b);
+      break;
+    case '*':
+      printf("%d %c %d = %d\n", a, operator, b, a * b);
+      break;
+    case '/':
+      printf("%d %c %d = %d\n", a, operator, b, a / b);
+      break;
+    case '%':
+      printf("%d %c %d = %d\n", a, operator, b, a % b);
+      break;
+    default:
+      printf("Invalid operator.\n");
+      break;
+  }
+
+  return 0;
 }
