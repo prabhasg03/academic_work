@@ -1,4 +1,4 @@
-# TASK 1
+# TASK 1(https://github.com/prabhasg03/Task-Codes/tree/C-language/C%20Language/Task%201
 - [a. Write a C program to implement operators in c?]()
 - [b. Write a C program to find greatest and smallest among three numbers using conditional operator.]()
 - [c. Write a C program to implicit and explicit type conversion in c?]()
