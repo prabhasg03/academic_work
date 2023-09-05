@@ -1,7 +1,7 @@
-# TASK 1(https://github.com/prabhasg03/Task-Codes/tree/C-language/C%20Language/Task%201
-- [a. Write a C program to implement operators in c?]()
-- [b. Write a C program to find greatest and smallest among three numbers using conditional operator.]()
-- [c. Write a C program to implicit and explicit type conversion in c?]()
+# TASK 1(https://github.com/prabhasg03/Task-Codes/tree/C-language/C%20Language/Task%201)
+- [a. Write a C program to implement operators in c?](https://github.com/prabhasg03/Task-Codes/blob/C-language/C%20Language/Task%201/1a.c)
+- [b. Write a C program to find greatest and smallest among three numbers using conditional operator.](https://github.com/prabhasg03/Task-Codes/blob/C-language/C%20Language/Task%201/1b.c)
+- [c. Write a C program to implicit and explicit type conversion in c?](https://github.com/prabhasg03/Task-Codes/blob/C-language/C%20Language/Task%201/1c.c)
 # TASK 2
 - a. Write a C program to swap two numbers using the following .
  - [i. Using third variable]()
