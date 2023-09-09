@@ -1,5 +1,5 @@
 # TASK 1
--[Write a R program to create an array of two 3x3 matrices (each with 3 rows and 3 columns)
+- [Write a R program to create an array of two 3x3 matrices (each with 3 rows and 3 columns)
 from two given two vectors of any length. And display
 (a) the second row of the second matrix of the array
 (b) the element in the 3rd row and 3rd column of the 1st matrix.]()
