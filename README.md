@@ -1,5 +1,5 @@
 # TASK 1
-- [A. Create a HTML page of your present class timetable.]()
+- [A. Create a HTML page of your present class timetable.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%201/1a.html)
 - [B. Write JavaScript code to change the HTML contents and attributes.
 Ex: Change the text of html page on a button click and program to switch on and off
 the light on the button click.]()
