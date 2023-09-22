@@ -12,37 +12,43 @@
  - Write java programs that uses the following keywords
    - [a.)This](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%203/T3a.java)
    - [b.)super](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%203/T3b.java)
-   - c.)static
-   - d.)final
+   - [c.)static](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%203/T3c.java)
+   - [d.)final](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%203/T3d.java)
 ## [TASK 4](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%204)
- - a. Write a java program to implement methodoverriding
- - b. Write a java program to implement dynamic method dispatch.
- - c. Write a Java program to implement multiple inheritance. 
- - d. Write a java program that uses access specifiers,
+ - [a. Write a java program to implement methodoverriding](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%204/4A/4a.java)
+ - [b. Write a java program to implement dynamic method dispatch.](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%204/4B/4b.java)
+ - [c. Write a Java program to implement multiple inheritance.](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%204/4C/4c.java) 
+ - [d. Write a java program that uses access specifiers.](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%204/4D/4d.java)
 ## [TASK 5](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%205)
- - a. Write a Java program that reads a file name from the user, then displays information about whether the file exists, whether the file is readable, whether the file is writable, the type of file and the length of the file in bytes. 
- - b. Write a Java program that reads a file and displays the file on the screen, with a line number before each line.
- - c. Write a Java program that displays the number of characters, lines and words in a text file
+ - [a. Write a Java program that reads a file name from the user, then displays information about whether the file exists, whether the file is readable, whether the file is writable, the type of file and the length of the file in bytes.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%205/Week5a.java)
+ - [b. Write a Java program that reads a file and displays the file on the screen, with a line number before each line.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%205/Week5b.java)
+ - [c. Write a Java program that displays the number of characters, lines and words in a text file.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%205/Week5c.java)
 ## [TASK 6](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%206)
- - a Write a Java program for handling Checked Exceptions. 
- - b. Write a Java program for handling Unchecked Exceptions.
+ - [a Write a Java program for handling Checked Exceptions.](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%206/6a.java)
+ - [b. Write a Java program for handling Unchecked Exceptions.](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%206/6b.java)
 ## [TASK 7](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%207)
- - a. Write a Java program that creates three threads. First thread displays "Good Morning" every one second, the second thread displays "Hello" every two seconds and the third thread displays "Welcome" every threeseconds.
- - b. Write a Java program that correctly implements producer consumer problem using the concept of inter threadcommunication.
+ - [a. Write a Java program that creates three threads. First thread displays "Good Morning" every one second, the second thread displays "Hello" every two seconds and the third thread displays "Welcome" every threeseconds.](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%207/7a.java)
+ - [b. Write a Java program that correctly implements producer consumer problem using the concept of inter threadcommunication.](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%207/7b.java)
 ## [TASK 8](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%208)
 - Write a program illustrating following collections framework
- - a) ArrayList b) Vector c) HashTable d)Stack
+ - [a) ArrayList](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%208/ArrayList.java)
+ - [b) Vector](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%208/Vectora.java)
+ - [c) HashTable](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%208/HT.java)
+ - [d)Stack](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%208/StackDemo.java)
 ## [TASK 9](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%209)
- - a. Develop an applet that displays a simple message.
- - b. Develop an applet that receives an integer in one text field and compute its factorial value and return it in another text field, when the button named "Compute" is clicked.Write a Java program that works as a simple calculator. Use a grid layout to arrange button for the digits and for the+, -, % operations. Add a text field to display the result.
+ - [a. Develop an applet that displays a simple message.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%209/9A/T9a.java)
+ - [b. Develop an applet that receives an integer in one text field and compute its factorial value and return it in another text field, when the button named "Compute" is clicked.Write a Java program that works as a simple calculator. Use a grid layout to arrange button for the digits and for the+, -, % operations. Add a text field to display the result.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%209/9B/T9b.java)
+ - [c. Write a Java program that works as a simple calculator. Use a grid layout to arrange button 
+for the digits and for the +, -,*, % operations. Add a text field to display the result.
+](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%209/9C/T9c.java)
 ## [TASK 10](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%2010)
- - a. Write a Java program for handling mouse events. 
- - b. Write a Java program for handling key events.
+ - [a. Write a Java program for handling mouse events.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%2010/T10.java)
+ - [b. Write a Java program for handling key events.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%2010/T10b.java)
 ## [TASK 11](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%2011)
- - a. Write a program that creates a user interface to perform integer divisions. The user enters two numbers in the text fields Numl and Num 2. 
- - b. The division of Numl and Num2 is displayed in the Result field when the Divide button is clicked. If Numlor Num2 were not an integer, the program would throw Number Format Exception. If Num2 were Zero, the program would throw an Arithmetic Exception and display the exception in a message dialog box.
+ - [a. Write a program that creates a user interface to perform integer divisions. The user enters two numbers in the text fields Numl and Num 2. 
+    b. The division of Numl and Num2 is displayed in the Result field when the Divide button is clicked. If Numlor Num2 were not an integer, the program would throw Number Format Exception. If Num2 were Zero, the program would throw an Arithmetic Exception and display the exception in a message dialog box.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%2011/T11.java)
 ## [TASK 12](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%2012)
- - a. Write a java program that simulates traffic light. The program lets the user select one of three lights: red, yellow or green. When a radio button is selected, the light is turned on, and only one light can be on at a time. No light is on when the program starts. 
- - b. Write a Java program that allows the user to draw lines, rectangles and ovals.
+ - [a. Write a java program that simulates traffic light. The program lets the user select one of three lights: red, yellow or green. When a radio button is selected, the light is turned on, and only one light can be on at a time. No light is on when the program starts.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%2012/T12a.java)
+ - [b. Write a Java program that allows the user to draw lines, rectangles and ovals.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%2012/T12b.java)
 ## [TASK 13](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%2013)
- - Create a table in Table.txt file such that the first line in the file is the header, and the remaining lines correspond to rows in the table. The elements are separated by commas. Write a java. program to display the table using JTable components
+ - [Create a table in Table.txt file such that the first line in the file is the header, and the remaining lines correspond to rows in the table. The elements are separated by commas. Write a java. program to display the table using JTable components](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%2013/T13.java)
