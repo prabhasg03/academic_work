@@ -1,14 +1,14 @@
 # TASK 1
 ### DDL commands (Create, Alter, Drop, Truncate)
 [a. Create a table EMP with the following structure.]()
-"Name Type
+```Name Type
 ------------------------------------------------------------
 EMPNO NUMBER(6)
 ENAME VARCHAR2(20)
 JOB VARCHAR2(10)
 MGR NUMBER(4)
 DEPTNO NUMBER(3)
-SAL NUMBER(7,2)"
+SAL NUMBER(7,2)```
 b. Add a column commission to the emptable. Commission should be numeric with null values 
 allowed.
 c. Modify the column width of the job field of emptable.
