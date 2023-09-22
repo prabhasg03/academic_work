@@ -1,31 +1,33 @@
 # TASK 1
 ### DDL commands (Create, Alter, Drop, Truncate)
 [a. Create a table EMP with the following structure.]()
-> Name Type
-> ------------------------------------------------------------
-> EMPNO NUMBER(6)
-> ENAME VARCHAR2(20)
-> JOB VARCHAR2(10)
-> MGR NUMBER(4)
-> DEPTNO NUMBER(3)
-> SAL NUMBER(7,2)
-b. Add a column commission to the emptable. Commission should be numeric with null values 
-allowed.
-c. Modify the column width of the job field of emptable.
-d. Create dept table with the following structure. 
+ ```
+ Name Type
+ ------------------------------------------------------------
+ EMPNO NUMBER(6)
+ ENAME VARCHAR2(20)
+ JOB VARCHAR2(10)
+ MGR NUMBER(4)
+ DEPTNO NUMBER(3)
+ SAL NUMBER(7,2)
+ ```
+- [b. Add a column commission to the emptable. Commission should be numeric with null values allowed.]()
+- [c. Modify the column width of the job field of emptable.]()
+- [d. Create dept table with the following structure.]()
+```
 Name Type
 -----------------------------------------------------------
 DEPTNO NUMBER(2)
 DNAME VARCHAR2(10)
 LOC VARCHAR2(10)
 DEPTNO as the primary key
-e. Add constraints to the emptable that is empno as the primary key and deptno as the foreign 
-key
-f. Add constraints to the emptable to check the empno value while entering(i.e)empno>100.
-g. Salary value by default is 5000, otherwise it should accept the values from the user.
-h. Add columns DOB to the emp table. Add and drop a column DOJ to the emp table.
-TASK 2
-DML COMMANDS (Insert, Update, Delete)
+```
+- [e. Add constraints to the emptable that is empno as the primary key and deptno as the foreign key]
+- [f. Add constraints to the emptable to check the empno value while entering(i.e)empno>100.]
+- [g. Salary value by default is 5000, otherwise it should accept the values from the user.]
+- [h. Add columns DOB to the emp table. Add and drop a column DOJ to the emp table.]
+# TASK 2
+### DML COMMANDS (Insert, Update, Delete)
 a. Insert 5 records into dept Insert few rows and truncate those from the emp1 table and also 
 drop it.
 b. Insert 11 records into emptable.
