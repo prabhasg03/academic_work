@@ -15,7 +15,8 @@ the light on the button click.]()
 - [Design a web page using CSS (Cascading Style Sheets) which includes the following:]()
 ```
   1.Use different font, styles:
-   In the style definition you define how each selector should work (font, color etc.). Then, in the body of your pages, you refer to these selectors to activate the styles.
+   In the style definition you define how each selector should work (font, color etc.).
+  Then, in the body of your pages, you refer to these selectors to activate the styles.
   2. Set a background image for both the page and single elements on the page.
   3. Work with layers in CSS.
 ```
@@ -58,7 +59,8 @@ http://localhost:8080/books.html (for Apache)]()
 pwd4 respectively. Write a servelet for doing the following:]()
 ```
  1. Create a Cookie and add these four user id’s and passwords to this Cookie.
-2. Read the user id and passwords entered in the Login form (week1) and authenticate with the values (user id and passwords ) available in the cookies.If he is a valid user(i.e., user-name and password match) you should welcome him by name(user-name) else you should display “You are not an authenticated user”.
+2. Read the user id and passwords entered in the Login form (week1) and authenticate with the values (user id and passwords ) available in the cookies.
+If he is a valid user(i.e., user-name and password match) you should welcome him by name(user-name) else you should display “You are not an authenticated user”.
  Use init-parameters to do this. Store the user-names and passwords in the web.xml and access them in the servlet by using the getInitParameters() method.
 ```
 # TASK 9
