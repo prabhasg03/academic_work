@@ -1,11 +1,9 @@
 ## [TASK 1](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%201)
 - Write java programs that implement the following:
- ```
  - [a.)Constructor](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%201/DefaultConstructor.java)
  - [b.)Parameterized constructor](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%201/ParamConstructor.java)
  - [c.)Method overloading](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%201/MethodOverloading.java)
  - [d.)Construct overloading.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%201/ConstructOverload.java)
-```
 ## [TASK 2](https://github.com/prabhasg03/Task-Codes/tree/Java/Java/Task%202)
  - [a.)Write a Java program that checks whether a given string is a palindrome or not. Ex: MADAM is apalindrome.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%202/T2a.java)
  - [b.)Write a Java program for sorting a given list of names in ascending order.](https://github.com/prabhasg03/Task-Codes/blob/Java/Java/Task%202/T2b.java)
