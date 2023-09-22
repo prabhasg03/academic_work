@@ -28,14 +28,15 @@ DEPTNO as the primary key
 - [h. Add columns DOB to the emp table. Add and drop a column DOJ to the emp table.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%201.txt)
 # TASK 2
 ### DML COMMANDS (Insert, Update, Delete)
-[a. Insert 5 records into dept Insert few rows and truncate those from the emp1 table and also drop it.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%202.txt)
-[b. Insert 11 records into emp table.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%202.txt)
-[c. Update the emptable to set the value of commission of all employees to Rs1000/- who are working as managers.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%202.txt)
-[d. Delete only those who are working as supervisors.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%202.txt)
-[e. Delete the rows whose empno is 7599.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%202.txt)
+- [a. Insert 5 records into dept Insert few rows and truncate those from the emp1 table and also drop it.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%202.txt)
+- [b. Insert 11 records into emp table.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%202.txt)
+- [c. Update the emptable to set the value of commission of all employees to Rs1000/- who are working as managers.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%202.txt)
+- [d. Delete only those who are working as supervisors.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%202.txt)
+- [e. Delete the rows whose empno is 7599.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%202.txt)
 # TASK 3
-[TCL COMMANDS (Save Point, Rollback Commit)](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%203.txt)
-# TASK 4
+- [TCL COMMANDS (Save Point, Rollback Commit)](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/TASK%203.txt)
+# 
+TASK 4
 ### DQL COMMAND (Select)- SQL Operators and Order by Clause
 - [a. List the records in the emptable order by salary in descending order.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/Task%204.sql)
 - [b. Display only those employees whose deptno is 30.](https://github.com/prabhasg03/Task-Codes/blob/DBMS/DBMSL/Task%204.sql)
