@@ -73,5 +73,5 @@
   iv.ifndef](https://github.com/prabhasg03/Task-Codes/blob/C-language/C%20Language/Task%2014/14.c)
 - b. [Write a C program to create a user defined header file to find sum, product and greatest of two numbers ?](https://github.com/prabhasg03/Task-Codes/tree/C-language/C%20Language/Task%2014/14b)
 # TASK 15
-a. [Write a C program to merge two files into a third file.](https://github.com/prabhasg03/Task-Codes/tree/C-language/C%20Language/Task%2015/15a/15a.c)
-b. [Write a C program to find some of n numbers using command line arguments.](https://github.com/prabhasg03/Task-Codes/tree/C-language/C%20Language/Task%2015/15b.c)
+- a. [Write a C program to merge two files into a third file.](https://github.com/prabhasg03/Task-Codes/tree/C-language/C%20Language/Task%2015/15a/15a.c)
+- b. [Write a C program to find some of n numbers using command line arguments.](https://github.com/prabhasg03/Task-Codes/tree/C-language/C%20Language/Task%2015/15b.c)
