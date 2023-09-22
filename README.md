@@ -6,23 +6,29 @@ the light on the button click.]()
 # TASK 2
 ## VALIDATION:
 - [Write JavaScript to validate the following fields of the above registration page.]()
- - 1. Name (Name should contains alphabets and the length should not be less than 6 characters).
- - 2. Password (Password should not be less than 6 characters length).
- - 3. E-mail id (should not contain any invalid and must follow the standard pattern name@domain.com)
+```
+  1. Name (Name should contains alphabets and the length should not be less than 6 characters).
+  2. Password (Password should not be less than 6 characters length).
+  3. E-mail id (should not contain any invalid and must follow the standard pattern name@domain.com)
+```
 # TASK 3
 - [Design a web page using CSS (Cascading Style Sheets) which includes the following:]()
-    - 1.Use different font, styles:
-      - In the style definition you define how each selector should work (font, color etc.). Then, in the body of your pages, you refer to these selectors to activate the styles.
-    - 2. Set a background image for both the page and single elements on the page.
-    - 3. Work with layers in CSS.
+```
+  1.Use different font, styles:
+   In the style definition you define how each selector should work (font, color etc.). Then, in the body of your pages, you refer to these selectors to activate the styles.
+  2. Set a background image for both the page and single elements on the page.
+  3. Work with layers in CSS.
+```
 # TASK 4
 Write an XML file which will display the Book information which includes the following:
-- 1. Title of the book
-- 2. Author Name
-- 3. ISBN number
-- 4. Publisher name
-- 5. Edition
-- 6. Price
+```
+ 1. Title of the book
+ 2. Author Name
+ 3. ISBN number
+ 4. Publisher name
+ 5. Edition
+ 6. Price
+```
 [Write a Document Type Definition (DTD) to validate the above XML file.
 Display the XML file as follows.
 The contents should be displayed in a table. The header of the table should be in color
@@ -50,9 +56,11 @@ http://localhost:8080/books.html (for Apache)]()
 # TASK 8
 - [Assume four users user1,user2, user3 and user4 having the passwords pwd1,pwd2,pwd3 and
 pwd4 respectively. Write a servelet for doing the following:]()
- - 1. Create a Cookie and add these four user id’s and passwords to this Cookie.
- - 2. Read the user id and passwords entered in the Login form (week1) and authenticate with the values (user id and passwords ) available in the cookies.If he is a valid user(i.e., user-name and password match) you should welcome him by name(user-name) else you should display “You are not an authenticated user”.
-- Use init-parameters to do this. Store the user-names and passwords in the web.xml and access them in the servlet by using the getInitParameters() method.
+```
+ 1. Create a Cookie and add these four user id’s and passwords to this Cookie.
+2. Read the user id and passwords entered in the Login form (week1) and authenticate with the values (user id and passwords ) available in the cookies.If he is a valid user(i.e., user-name and password match) you should welcome him by name(user-name) else you should display “You are not an authenticated user”.
+ Use init-parameters to do this. Store the user-names and passwords in the web.xml and access them in the servlet by using the getInitParameters() method.
+```
 # TASK 9
 - [Create a JSP application for performing basic arithmetic operations using Java Beans.
 Ex: Use jsp:useBean action tag]()
