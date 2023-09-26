@@ -1,5 +1,5 @@
 ```
-This Repository contains the academic work done by me(Guda Sri Venkata Prabhas).
+This Repository contains the academic work,which was done in Bachelor of Technology in Computer Science and Engineering by me(Guda Sri Venkata Prabhas).
 The work is divided into Branches,Please Check them by below text:
 ```
 # First Semester(1st Year - 1st Semester)
@@ -14,7 +14,7 @@ The work is divided into Branches,Please Check them by below text:
 - [Python Programming(PP)](https://github.com/prabhasg03/Task-Codes/tree/Python)
 - [Operating System(OS)](https://github.com/prabhasg03/Task-Codes/tree/OS(Operating-System))
 - [Visual Programming using C# and .NET Lab](https://github.com/prabhasg03/Task-Codes/tree/VP-Lab)
-# Fifth Semester(3rd Year - 1st Semester)
+# Fifth Semester(3rd Year - 1st Semester)(Now)
 - [Data Warehousing and Data Mining](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining)
 - [Web Technologies](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies)
 - [R-Programming](https://github.com/prabhasg03/Task-Codes/tree/R-Programming)
