@@ -1,7 +1,6 @@
 ```
-This Repository contains the academic work,
-which was done in Bachelor of Technology in Computer Science and Engineering by me(Guda Sri Venkata Prabhas).
-The work is divided into Branches,Please Check them by below text:
+This repository contains the academic work I completed during my Bachelor of Technology degree
+in Computer Science and Engineering(AIML).The work is divided into branches. Please check them below:
 ```
 # First Semester(1st Year - 1st Semester)
 - [Programming for Problem Solving using C(PPS)](https://github.com/prabhasg03/Task-Codes/tree/C-language)
