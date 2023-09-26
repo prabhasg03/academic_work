@@ -1,5 +1,6 @@
 ```
-This Repository contains the academic work,which was done in Bachelor of Technology in Computer Science and Engineering by me(Guda Sri Venkata Prabhas).
+This Repository contains the academic work,
+which was done in Bachelor of Technology in Computer Science and Engineering by me(Guda Sri Venkata Prabhas).
 The work is divided into Branches,Please Check them by below text:
 ```
 # First Semester(1st Year - 1st Semester)
