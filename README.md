@@ -2,7 +2,7 @@
 - [A. Create a HTML page of your present class timetable.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%201/1a.html)
 - [B. Write JavaScript code to change the HTML contents and attributes.
 Ex: Change the text of html page on a button click and program to switch on and off
-the light on the button click.]()
+the light on the button click.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%201/1b.html)
 # TASK 2
 ## VALIDATION:
 - [Write JavaScript to validate the following fields of the above registration page.]()
