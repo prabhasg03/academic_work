@@ -1,8 +1,9 @@
 # TASK 1
 - [Write a R program to create an array of two 3x3 matrices (each with 3 rows and 3 columns)from two given two vectors of any length. And display](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%201/Task%201.R)
-```(a) the second row of the second matrix of the array
+```
+(a) the second row of the second matrix of the array
 (b) the element in the 3rd row and 3rd column of the 1st matrix.
-```(https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%201/Task%201.R)
+```
 # TASK 2
 - [(a) Find sum, mean and product of given vector values.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%202/2a.R)
 - [(b) Write R program to find the given number is prime or not.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%202/2b.R)
