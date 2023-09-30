@@ -1,1 +1,37 @@
+<!--VALIDATION:
+Write JavaScript to validate the following fields of the above registration page.]()
+1. Name (Name should contains alphabets and the length should not be less than 6 characters).
+2. Password (Password should not be less than 6 characters length).
+3. E-mail id (should not contain any invalid and must follow the standard pattern name@domain.com)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    Name:     <input id="name" type="text" on><br></br>
+    Password: <input id="password" type="password"><br></br>
+    E-Mail Id:<input id="mail" type="email"><br></br>
+    <button id="bt" onclick="func1()">Submit</button>
+<script>
+    const n=document.getElementById('name'),p=document.getElementById('password'),e=document.getElementById('mail');
+    function validateName(name) {
+    const regex = /^[a-zA-Z]{6,}$/;
+    return regex.test(name);
+}
 
+function validatePassword(password) {
+    return password.length >= 6;
+}
+
+function validateEmail(email) {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+}
+
+</script>
+</body>
+</html>
