@@ -1,1 +1,44 @@
-
+<!--Write JavaScript code to change the HTML contents and attributes.
+Ex: Change the text of html page on a button click and program to switch on and off
+the light on the button click.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick Button change</title>
+</head>
+<body>
+    <h1>Welcome to GRIET</h1>
+    <p id="P1">Hello I am a Paragraph</p>
+    <img id="img1" src="off.png" width="350" height="350">
+    <button type ="button" onclick='func()'>Click me</button>
+    <button id="b1" type ="button" onclick="func1()">On</button>
+<script>
+    var c=1,o=0
+    function func()
+    {
+        const ele=document.getElementById("P1");
+        if(c==1){
+        ele.innerHTML="Hey You clicked me "+c+" time!";}
+        else{
+            ele.innerHTML="Hey You clicked me "+c+" times!";    
+        }
+        c=c+1;
+    }
+    function func1()
+    {
+        const ele=document.getElementById("img1");
+        if(o==0){
+            document.getElementById('b1').innerHTML="Off";
+            ele.src="on.png";
+            o=1;
+        }else{
+            document.getElementById('b1').innerHTML="On";
+            ele.src="off.png";
+            o=0;
+        }
+    }
+</script>
+</body>
+</html>
