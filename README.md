@@ -45,12 +45,15 @@ without refreshing the whole page using angularJS]()
 - [Create a simple visual bean with a area filled with a color.
 The shape of the area depends on the property shape. If it is set to true then the shape of the area is Square and it is Circle, if it is false.The color of the area should be changed dynamically for every mouse click. The color should also be changed if we change the color in the “property window “.]()
 # TASK 7
-[1) Install TOMCAT web server and APACHE.
+```
+1) Install TOMCAT web server and APACHE.
 While installation assign port number 4040 to TOMCAT and 8080 to APACHE. Make sure
 that these ports are available i.e., no other process is using this port.
 2) Access the above developed static web pages for books web site, using these servers by
 putting the web pages developed in week-1 and week-2 in the document root.
-Access the pages by using the urls : http://localhost:4040/rama/books.html (for tomcat)
+```
+[Access the pages by using the urls : 
+http://localhost:4040/rama/books.html (for tomcat)
 http://localhost:8080/books.html (for Apache)]()
 # TASK 8
 - [Assume four users user1,user2, user3 and user4 having the passwords pwd1,pwd2,pwd3 and
@@ -67,13 +70,13 @@ Ex: Use jsp:useBean action tag]()
 # TASK 10
 - [Install a database (Mysql or Oracle). Create a table which should contain at least the
 following fields: name, password, email-id, phone number (these should hold the data from
-the registration form). Practice 'JDBC' connectivity.
-Write a Servlet/JSP to connect to that database and extract data from the tables and display
-them. Experiment with various SQL queries.
-Insert the details of the users who register with the web site, whenever a new user clicks the
+the registration form). Practice 'JDBC' connectivity.]()
+- [Write a Servlet/JSP to connect to that database and extract data from the tables and display
+them. Experiment with various SQL queries.]()
+- [Insert the details of the users who register with the web site, whenever a new user clicks the
 submit button in the registration page. (Registration Page)]()
 # TASK 11
-- [Write a JSP which does the following job:
-Insert the details of the 3 or 4 users who register with the web site (Task 10) by usingregistration form. Authenticate the user when he submits the login form using the username and password from the database (Login Page)]()
+- Write a JSP which does the following job:
+ - [Insert the details of the 3 or 4 users who register with the web site (Task 10) by usingregistration form. Authenticate the user when he submits the login form using the username and password from the database (Login Page)]()
 # TASK 12
 - [Write a JSP code to display all registered users (TASK 10) in a table with Name, Email and Phone number using JSTL SQL Tags.(Display Page)]()
