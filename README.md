@@ -12,14 +12,12 @@ the light on the button click.](https://github.com/prabhasg03/Task-Codes/blob/We
   3. E-mail id (should not contain any invalid and must follow the standard pattern name@domain.com)
 ```
 # TASK 3
-- [Design a web page using CSS (Cascading Style Sheets) which includes the following:]()
-```
-  1.Use different font, styles:
-   In the style definition you define how each selector should work (font, color etc.).
-  Then, in the body of your pages, you refer to these selectors to activate the styles.
-  2. Set a background image for both the page and single elements on the page.
-  3. Work with layers in CSS.
-```
+- Design a web page using CSS (Cascading Style Sheets) which includes the following:
+  - [1.Use different font, styles:
+    In the style definition you define how each selector should work (font, color etc.).
+    Then, in the body of your pages, you refer to these selectors to activate the styles.]()
+  - [2. Set a background image for both the page and single elements on the page.]()
+  - [3. Work with layers in CSS.]()
 # TASK 4
 Write an XML file which will display the Book information which includes the following:
 ```
