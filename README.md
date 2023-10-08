@@ -5,7 +5,7 @@ Ex: Change the text of html page on a button click and program to switch on and 
 the light on the button click.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%201/1b.html)
 # TASK 2
 ## VALIDATION:
-- [Write JavaScript to validate the following fields of the above registration page.]()
+- [Write JavaScript to validate the following fields of the above registration page.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%202/Task%202.html)
 ```
   1. Name (Name should contains alphabets and the length should not be less than 6 characters).
   2. Password (Password should not be less than 6 characters length).
@@ -15,9 +15,9 @@ the light on the button click.](https://github.com/prabhasg03/Task-Codes/blob/We
 - Design a web page using CSS (Cascading Style Sheets) which includes the following:
   - [1.Use different font, styles:
     In the style definition you define how each selector should work (font, color etc.).
-    Then, in the body of your pages, you refer to these selectors to activate the styles.]()
-  - [2. Set a background image for both the page and single elements on the page.]()
-  - [3. Work with layers in CSS.]()
+    Then, in the body of your pages, you refer to these selectors to activate the styles.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%203/3.1.html)
+  - [2. Set a background image for both the page and single elements on the page.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%203/3.2.html)
+  - [3. Work with layers in CSS.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%203/3.3.html)
 # TASK 4
 Write an XML file which will display the Book information which includes the following:
 ```
