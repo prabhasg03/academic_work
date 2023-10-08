@@ -5,33 +5,102 @@ Write JavaScript to validate the following fields of the above registration page
 3. E-mail id (should not contain any invalid and must follow the standard pattern name@domain.com)
 -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Page</title>
-</head>
-<body>
-    Name:     <input id="name" type="text" on><br></br>
-    Password: <input id="password" type="password"><br></br>
-    E-Mail Id:<input id="mail" type="email"><br></br>
-    <button id="bt" onclick="func1()">Submit</button>
-<script>
-    const n=document.getElementById('name'),p=document.getElementById('password'),e=document.getElementById('mail');
-    function validateName(name) {
-    const regex = /^[a-zA-Z]{6,}$/;
-    return regex.test(name);
-}
+<html>
+    <head>
+    <title>Registration</title>
+    </head>
+    <script>
 
-function validatePassword(password) {
-    return password.length >= 6;
+ function validate()
+ {
+     
+      var fn = form.fname.value;
+     for(x in fn)
+         {
+             ch=fn.charCodeAt(x);
+             if(ch<65||ch>90 && ch<97||ch>122)
+                 {
+                 alert("Invalid firstname");
+                 return false;
+                 }
+         }
+         var ln = form.lname.value;
+     for(y in ln)
+         {
+             ch=ln.charCodeAt(y);
+             if(ch<65||ch>90 && ch<97||ch>122)
+                 {
+                 alert("Invalid lastname");
+                 return false;
+                 }
+         }
+     var phn = form.phone.value;
+     var len = phn.length;
+     if (len!==10)
+     {    alert("Phone no should be exactly 10 digits");
+         return false;
+     }
+    
+    var pwd1=form.pwd.value;
+    var pwdl=pwd1.length;
+    if(pwdl%2===1)
+        {
+        alert("Password should contain even number of characters");
+        return false;
+        }
+    if(pwdl > 8)
+        {
+            alert("Password should not exceed 8 digits");
+            return false;
+        }
+   
+     var reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+     var mail=form.mailid.value;
+if (reg.test(mail)){
+alert("Valid email"); }
+else{
+    alert("Invalid email");
+return false;
 }
+ 
+        
+    return true;
+ }
+ 
+    </script>
 
-function validateEmail(email) {
-    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return regex.test(email);
-}
-
-</script>
-</body>
+    <div id="container">
+    <body>
+    <center>
+        <form name="form" method="POST" onSubmit=" return validate()">
+            <legend> Registration Form</legend>
+            <fieldset align="center">
+            
+                <table align="center">
+                    
+                     <tr><td>First Name: </td><td><input type="text" name="fname"  value="" size="50" required /></td></tr>
+                     <tr><td>Last Name: </td><td> <input type="text" name="lname" value="" size="50" /></td></tr>
+                     <tr><td>Phone No: </td><td>  <input type="number" name="phone" value="" size="50" /></td></tr>
+                    <tr><td>Mail id:</td><td><input type="text" name="mailid" value="" size="50" /></td></tr>
+                    <tr><td>Gender:</td>
+                        <td>Male:  <input type="radio" name="gender" value="male" >
+                            Female:   <input type="radio" name="gender" value="female"></td></tr>
+                    <tr><td>DOB :</td><td><input type="date" name="dob" value="DD/MM/YYYY" size="50" /></td></tr>
+                    
+                    <tr><td>Username:</td><td><input type="text" name="uname" value="" size="50" required/></td></tr>
+                    <tr><td>Password:</td><td><input type="password" name="pwd" value="" size="50" required/></td></tr>
+                    
+                    <tr><td>Age:</td><td><input type="text" name="age" value="" size="50" required/></td></tr>
+                </table>
+                <input type="submit" value="SUBMIT" name="submit" />
+          
+            </fieldset>
+        </form>
+    </div>
+        </center>
+    </body>
+    <div id="footer">
+		Copyright ©  GRIET, 2023
+	</div>
+</div>
 </html>
