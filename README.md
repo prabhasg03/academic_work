@@ -8,11 +8,11 @@
 - [(a) Find sum, mean and product of given vector values.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%202/2a.R)
 - [(b) Write R program to find the given number is prime or not.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%202/2b.R)
 # TASK 3
-- [(a) Write R program for implementation of built-in functions.]()
-- [(b) Write R program to find the factors of a given number using functions.]()
+- [(a) Write R program for implementation of built-in functions.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%203/3a.R)
+- [(b) Write R program to find the factors of a given number using functions.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%203/3b.R)
 # TASK 4
-- [(a) Write R program to generate Fibonacci series using recursive function.]()
-- [(b) Write R program to find the sum of natural numbers using recursive function.]()
+- [(a) Write R program to generate Fibonacci series using recursive function.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%204/4a.R)
+- [(b) Write R program to find the sum of natural numbers using recursive function.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%204/4b.R)
 # TASK 5
 - [Write a R program to create a list of random numbers in normal distribution and count theoccurrences of each value.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%205/Task5.R)
 # TASK 6
