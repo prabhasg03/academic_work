@@ -14,7 +14,7 @@ is_prime <- function(n){
 }
 
 print("Enter a number to check prime or not:")
-n=as.numeric(readline())
+n=as.numeric((readline())[[1]])
 if(is_prime(n)){
   print(c(n,"is a Prime number."))
 }else{
