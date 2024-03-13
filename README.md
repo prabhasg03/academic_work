@@ -1,24 +1,43 @@
 ```
-This repository contains the academic work I completed during my Bachelor of Technology degree
-in Computer Science and Engineering(AIML).The work is divided into branches. Please check them below:
+Prerequisites:
+1. Mastery of introduction-level algebra , statistics and probability theory
+2. Proficiency in programming basics, and some experience coding in Python or RTool
+Course Objectives:
+1. Learn usage of Libraries for Machine Learning in Python
+2. Demonstrate Dimensionality reduction methods
+3. Describe appropriate supervised learning algorithms for a given problem.
+4. Explore back propagation algorithm and ensemble methods
+5. Discuss different unsupervised learning algorithms
+Course Outcomes:
+1. Illustrate the applications of Python Machine Learning Libraries.
+2. Apply Dimensionality reduction methods for Machine Learning Tasks.
+3. Design and analyze various supervised learning mechanisms.
+4. Develop back propagation algorithm and Random Forest Ensemble method.
+5. Design and analyze various unsupervised learning algorithms.
+Note: Implement the following Machine Learning Tasks using Python /R-Tool
 ```
-# First Semester(1st Year - 1st Semester)
-- [Programming for Problem Solving using C(PPS)](https://github.com/prabhasg03/Task-Codes/tree/C-language)
-# Second Semester(1st Year - 2nd Semester)
-- [Data Structures using C (DS)](https://github.com/prabhasg03/Task-Codes/tree/DS-using-C)
-# Third Semester(2nd Year - 1st Semester)
-- [Java Programming(JP)](https://github.com/prabhasg03/Task-Codes/tree/Java)
-- [Scripting Language Lab(SLL)](https://github.com/prabhasg03/Task-Codes/tree/SLL(Scripting-Language-Lab))
-- [Database Management Systems(DBMS)](https://github.com/prabhasg03/Task-Codes/tree/DBMS)
-# Fourth Semester(2nd Year - 2nd Semester)
-- [Python Programming(PP)](https://github.com/prabhasg03/Task-Codes/tree/Python)
-- [Operating System(OS)](https://github.com/prabhasg03/Task-Codes/tree/OS(Operating-System))
-- [Visual Programming using C# and .NET Lab](https://github.com/prabhasg03/Task-Codes/tree/VP-Lab)
-# Fifth Semester(3rd Year - 1st Semester)
-- [Data Warehousing and Data Mining](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining)
-- [Web Technologies](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies)
-- [R-Programming](https://github.com/prabhasg03/Task-Codes/tree/R-Programming)
-# Sixth Semester(3rd Year - 2nd Semester)
-- [Big Data Analytics Lab](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining)
-- [Machine Learning Lab](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies)
-- [Mini-Project](https://github.com/prabhasg03/Task-Codes/tree/R-Programming)
+# Task 1
+ - Write a python program to import and export data using Pandas library functions.
+# Task 2
+ - Demonstrate various data preprocessing techniques for a given dataset.
+# Task 3
+ - Implement Dimensionality reduction using Principle Component Analysis (PCA) method.
+# Task 4
+ - Write a Python program to demonstrate various Data Visualization Techniques.
+# Task 5
+ - Implement Simple and Multiple Linear Regression Models.
+# Task 6
+ - Develop Logistic Regression Model for a given dataset.
+# Task 7
+ - Develop Decision Tree Classification model for a given dataset and use it to classify a new sample.
+# Task 8
+ - Implement Naïve Bayes Classification in Python
+# TASK 9
+ - Build KNN Classification model for a given dataset.
+# TASK 10 
+ - Build Artificial Neural Network model with back propagation on a given dataset.
+# TASK 11
+ - a) Implement Random forest ensemble method on a given dataset.
+ - b) Implement Boosting ensemble method on a given dataset.
+# TASK 12
+ -Write a python program to implement K-Means clustering Algorithm.
