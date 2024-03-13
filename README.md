@@ -17,19 +17,19 @@ Course Outcomes:
 Note: Implement the following Machine Learning Tasks using Python /R-Tool
 ```
 # Task 1
- - Write a python program to import and export data using Pandas library functions.
+ - [Write a python program to import and export data using Pandas library functions.](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab/Task%201)
 # Task 2
- - Demonstrate various data preprocessing techniques for a given dataset.
+ - [Demonstrate various data preprocessing techniques for a given dataset.](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab/Task%202)
 # Task 3
- - Implement Dimensionality reduction using Principle Component Analysis (PCA) method.
+ - [Implement Dimensionality reduction using Principle Component Analysis (PCA) method.](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab/Task%203)
 # Task 4
- - Write a Python program to demonstrate various Data Visualization Techniques.
+ - [Write a Python program to demonstrate various Data Visualization Techniques.](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab/Task%204)
 # Task 5
- - Implement Simple and Multiple Linear Regression Models.
+ - [Implement Simple and Multiple Linear Regression Models.
 # Task 6
- - Develop Logistic Regression Model for a given dataset.
+ - [Develop Logistic Regression Model for a given dataset.
 # Task 7
- - Develop Decision Tree Classification model for a given dataset and use it to classify a new sample.
+ - [Develop Decision Tree Classification model for a given dataset and use it to classify a new sample.
 # Task 8
  - Implement Naïve Bayes Classification in Python
 # TASK 9
@@ -37,7 +37,7 @@ Note: Implement the following Machine Learning Tasks using Python /R-Tool
 # TASK 10 
  - Build Artificial Neural Network model with back propagation on a given dataset.
 # TASK 11
- - a) Implement Random forest ensemble method on a given dataset.
- - b) Implement Boosting ensemble method on a given dataset.
+ - Implement Random forest ensemble method on a given dataset.
+ - Implement Boosting ensemble method on a given dataset.
 # TASK 12
- -Write a python program to implement K-Means clustering Algorithm.
+ - Write a python program to implement K-Means clustering Algorithm.
