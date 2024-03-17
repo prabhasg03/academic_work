@@ -1,0 +1,68 @@
+> #TASK 9 : Write a R program to read the .csv file and perform the following.
+> #(b) remove outliers from the data
+> #Program:
+> library(readr)
+> library(dplyr)
+> file_path <- 'crime.csv'
+> data <- read_csv(file_path)
+Rows: 47 Columns: 8                                                                          
+── Column specification ───────────────────────────────────────────────────────────────────────
+Delimiter: ","
+dbl (8): Year, Population, Murder, Rape, Robbery, Assault, Burglary, CarTheft
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+> # Check if "Year" is a numeric column
+> if ("Year" %in% colnames(data) && is.numeric(data$Year)) {
++   column <- data$Year
++   # Remove outliers using IQR method
++   Q1 <- quantile(column, 0.25)
++   Q3 <- quantile(column, 0.75)
++   IQR_value <- Q3 - Q1
++   lower_bound <- Q1 - 1.5 * IQR_value
++   upper_bound <- Q3 + 1.5 * IQR_value
++   data_no_outliers <- data %>%
++     filter(column >= lower_bound & column <= upper_bound)
++   print("Data without outliers:")
++   print(data_no_outliers)
++ } else {
++   # If "Year" is not numeric, keep all rows
++   data_no_outliers <- data
++   print("No numeric column named 'Year' found.")
++ }
+[1] "Data without outliers:"
+# A tibble: 47 × 8
+    Year Population Murder  Rape Robbery Assault Burglary CarTheft
+   <dbl>      <dbl>  <dbl> <dbl>   <dbl>   <dbl>    <dbl>    <dbl>
+ 1  1965   18073000    836  2320   28182   27464   183443    58452
+ 2  1966   18258000    882  2439   30098   29142   196127    64368
+ 3  1967   18336000    996  2665   40202   31261   219157    83775
+ 4  1968   18113000   1185  2527   59857   34946   250918   104877
+ 5  1969   18321000   1324  2902   64754   36890   248477   115400
+ 6  1970   18190740   1444  2875   81149   39145   267474   125674
+ 7  1971   18391000   1823  3225   97682   42318   273704   127658
+ 8  1972   18366000   2026  4199   86391   45926   239886   105081
+ 9  1973   18265000   2040  4852   80795   47781   246246   112328
+10  1974   18111000   1919  5240   86814   51454   271824   104095
+# ℹ 37 more rows
+# ℹ Use `print(n = ...)` to see more rows
+> # Print the original data
+> print("Original Data:")
+[1] "Original Data:"
+> print(data)
+# A tibble: 47 × 8
+    Year Population Murder  Rape Robbery Assault Burglary CarTheft
+   <dbl>      <dbl>  <dbl> <dbl>   <dbl>   <dbl>    <dbl>    <dbl>
+ 1  1965   18073000    836  2320   28182   27464   183443    58452
+ 2  1966   18258000    882  2439   30098   29142   196127    64368
+ 3  1967   18336000    996  2665   40202   31261   219157    83775
+ 4  1968   18113000   1185  2527   59857   34946   250918   104877
+ 5  1969   18321000   1324  2902   64754   36890   248477   115400
+ 6  1970   18190740   1444  2875   81149   39145   267474   125674
+ 7  1971   18391000   1823  3225   97682   42318   273704   127658
+ 8  1972   18366000   2026  4199   86391   45926   239886   105081
+ 9  1973   18265000   2040  4852   80795   47781   246246   112328
+10  1974   18111000   1919  5240   86814   51454   271824   104095
+# ℹ 37 more rows
+# ℹ Use `print(n = ...)` to see more rows
+> 
