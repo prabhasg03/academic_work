@@ -16,23 +16,25 @@
 # TASK 5
 - [Write a R program to create a list of random numbers in normal distribution and count theoccurrences of each value.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%205/Task5.R)
 # TASK 6
-- [(a) Write a R program for addition of two matrices.]()
-- [(b) Write a R program for multiplication of two matrices.]()
+- [(a) Write a R program for addition of two matrices.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%206/6a.R)
+- [(b) Write a R program for multiplication of two matrices.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%206/6b.R)
 # TASK 7
-- [Write a R program to create a data frame from four given vectors of students details. (Name,roll.no., sub_name, marks)]()
+- [Write a R program to create a data frame from four given vectors of students details. (Name,roll.no., sub_name, marks)](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%207/7a.R)
 # TASK 8
-- [Write a R program to create a Data Frame which contain details of 5 employees and display summary of the data.]()
+- [Write a R program to create a Data Frame which contain details of 5 employees and display summary of the data.](https://github.com/prabhasg03/Task-Codes/blob/R-Programming/R-Programming/Task%208.R)
 # TASK 9
-- [Write a R programto read the .csv file and perform the following.
-(a) Summary statistics on the data (b) Remove outliers from the data]() 
+- Write a R programto read the .csv file and perform the following.
+  - [(a) Summary statistics on the data](https://github.com/prabhasg03/Task-Codes/tree/R-Programming/R-Programming/Task%209/9a)
+  - [(b) Remove outliers from the data](https://github.com/prabhasg03/Task-Codes/tree/R-Programming/R-Programming/Task%209/9b)
 # TASK 10
-- [Write a R programto read the .csv file and perform the following.
-(a) Plot the data using using ggplot (b) Test a hypothesis about the data]()
+- Write a R programto read the .csv file and perform the following.
+  - [(a) Plot the data using using ggplot](https://github.com/prabhasg03/Task-Codes/tree/R-Programming/R-Programming/Task%2010/10A)
+  - [(b) Test a hypothesis about the data](https://github.com/prabhasg03/Task-Codes/tree/R-Programming/R-Programming/Task%2010/10B)
 # TASK 11
-- [(a) Use the R -Studio environment to code OLS models]()
-- [(b) Review the methodology to validate the model and predict the dependent variable for a set of given independent variables]()
-- [(c) Use R graphics functions to visualize the results generated with the model]()
+- [(a) Use the R -Studio environment to code OLS models](https://github.com/prabhasg03/Task-Codes/tree/R-Programming/R-Programming/Task%2011)
+- [(b) Review the methodology to validate the model and predict the dependent variable for a set of given independent variables](https://github.com/prabhasg03/Task-Codes/tree/R-Programming/R-Programming/Task%2011)
+- [(c) Use R graphics functions to visualize the results generated with the model](https://github.com/prabhasg03/Task-Codes/tree/R-Programming/R-Programming/Task%2011)
 # TASK 12
-- [(a) Use R -Studio environment to code Logistic Regression models]()
-- [(b) Review the methodology to validate the model and predict the dependent variable for a set of given independent variables.]()
-- [(c) Use R graphics functions to visualize the results generated with the regression model]()
+- [(a) Use R -Studio environment to code Logistic Regression models](https://github.com/prabhasg03/Task-Codes/tree/R-Programming/R-Programming/Task%2012)
+- [(b) Review the methodology to validate the model and predict the dependent variable for a set of given independent variables.](https://github.com/prabhasg03/Task-Codes/tree/R-Programming/R-Programming/Task%2012)
+- [(c) Use R graphics functions to visualize the results generated with the regression model](https://github.com/prabhasg03/Task-Codes/tree/R-Programming/R-Programming/Task%2012)
