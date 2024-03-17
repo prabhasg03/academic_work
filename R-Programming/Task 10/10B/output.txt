@@ -1,0 +1,28 @@
+> #Task 10
+> #Write a R program to read the .csv file and perform the following. 
+> #(b)Test a hypothesis about the data
+> #Program:
+> # Load the required library
+> library(readr)
+> data <- read.csv("crime.csv")
+> t_test_result <- t.test(data$Burglary, mu = 2)
+> print(t_test_result)
+
+	One Sample t-test
+
+data:  data$Burglary
+t = 14.365, df = 46, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 2
+95 percent confidence interval:
+ 162619.6 215620.1
+sample estimates:
+mean of x 
+ 189119.8 
+
+> if (t_test_result$p.value < 0.05) {
++   cat("Reject the null hypothesis. There is significant evidence that the mean of variable_of_interest is different from 0.")
++ } else {
++   cat("Fail to reject the null hypothesis. There is not enough evidence to conclude that the mean of variable_of_interest is different from 0.")
++ }
+Reject the null hypothesis. There is significant evidence that the mean of variable_of_interest is different from 0.
+> 
