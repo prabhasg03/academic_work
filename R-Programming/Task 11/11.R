@@ -1,4 +1,8 @@
-
+#TASK 11 : 
+#(a)Use the R -Studio environment to code OLS models 
+#(b) Review the methodology to validate the model and predict the 
+#dependent variable for a set of given independent variables 
+#(c) Use R graphics functions to visualize the results generated with the model 
 # Simple Linear Regression
 path='Salary_Data.csv'
 dataset = read.csv(path)
