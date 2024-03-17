@@ -1,0 +1,161 @@
+> # Installing the package
+> #install.packages("dplyr")
+> 
+> # Loading package
+> library(dplyr)
+> 
+> # Summary of dataset in package
+> summary(mtcars)
+      mpg             cyl       
+ Min.   :10.40   Min.   :4.000  
+ 1st Qu.:15.43   1st Qu.:4.000  
+ Median :19.20   Median :6.000  
+ Mean   :20.09   Mean   :6.188  
+ 3rd Qu.:22.80   3rd Qu.:8.000  
+ Max.   :33.90   Max.   :8.000  
+      disp             hp       
+ Min.   : 71.1   Min.   : 52.0  
+ 1st Qu.:120.8   1st Qu.: 96.5  
+ Median :196.3   Median :123.0  
+ Mean   :230.7   Mean   :146.7  
+ 3rd Qu.:326.0   3rd Qu.:180.0  
+ Max.   :472.0   Max.   :335.0  
+      drat             wt       
+ Min.   :2.760   Min.   :1.513  
+ 1st Qu.:3.080   1st Qu.:2.581  
+ Median :3.695   Median :3.325  
+ Mean   :3.597   Mean   :3.217  
+ 3rd Qu.:3.920   3rd Qu.:3.610  
+ Max.   :4.930   Max.   :5.424  
+      qsec             vs        
+ Min.   :14.50   Min.   :0.0000  
+ 1st Qu.:16.89   1st Qu.:0.0000  
+ Median :17.71   Median :0.0000  
+ Mean   :17.85   Mean   :0.4375  
+ 3rd Qu.:18.90   3rd Qu.:1.0000  
+ Max.   :22.90   Max.   :1.0000  
+       am              gear      
+ Min.   :0.0000   Min.   :3.000  
+ 1st Qu.:0.0000   1st Qu.:3.000  
+ Median :0.0000   Median :4.000  
+ Mean   :0.4062   Mean   :3.688  
+ 3rd Qu.:1.0000   3rd Qu.:4.000  
+ Max.   :1.0000   Max.   :5.000  
+      carb      
+ Min.   :1.000  
+ 1st Qu.:2.000  
+ Median :2.000  
+ Mean   :2.812  
+ 3rd Qu.:4.000  
+ Max.   :8.000  
+> 
+> # Installing the package
+> install.packages("caTools") # For Logistic regression
+Error in install.packages : Updating loaded packages
+> install.packages("ROCR")	 # For ROC curve to evaluate model
+Error in install.packages : Updating loaded packages
+> 
+> # Loading package
+> library(caTools)
+> library(ROCR)
+> 
+> # Splitting dataset
+> split <- sample.split(mtcars, SplitRatio = 0.8)
+> split
+ [1] FALSE FALSE  TRUE  TRUE  TRUE  TRUE
+ [7]  TRUE  TRUE  TRUE FALSE  TRUE
+> 
+> train_reg <- subset(mtcars, split == "TRUE")
+> test_reg <- subset(mtcars, split == "FALSE")
+> 
+> # Training model
+> logistic_model <- glm(vs ~ wt + disp,
++                       data = train_reg,
++                       family = "binomial")
+> logistic_model
+
+Call:  glm(formula = vs ~ wt + disp, family = "binomial", data = train_reg)
+
+Coefficients:
+(Intercept)           wt         disp  
+    1.84271      1.47488     -0.03005  
+
+Degrees of Freedom: 22 Total (i.e. Null);  20 Residual
+Null Deviance:	    31.84 
+Residual Deviance: 14.44 	AIC: 20.44
+> 
+> # Summary
+> summary(logistic_model)
+
+Call:
+glm(formula = vs ~ wt + disp, family = "binomial", data = train_reg)
+
+Coefficients:
+            Estimate Std. Error z value
+(Intercept)  1.84271    2.80983   0.656
+wt           1.47488    1.70384   0.866
+disp        -0.03005    0.01549  -1.941
+            Pr(>|z|)  
+(Intercept)   0.5119  
+wt            0.3867  
+disp          0.0523 .
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1
+  ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 31.841  on 22  degrees of freedom
+Residual deviance: 14.435  on 20  degrees of freedom
+AIC: 20.435
+
+Number of Fisher Scoring iterations: 6
+
+> 
+> # Predict test data based on model
+> predict_reg <- predict(logistic_model,
++                        test_reg, type = "response")
+> predict_reg
+    Mazda RX4 Mazda RX4 Wag      Merc 280 
+   0.71071088    0.78158601    0.86759461 
+   Merc 450SE    Merc 450SL Toyota Corona 
+   0.39116514    0.28011815    0.86637049 
+  AMC Javelin    Camaro Z28    Volvo 142E 
+   0.09740609    0.04691467    0.90943722 
+> 
+> # Changing probabilities
+> predict_reg <- ifelse(predict_reg >0.5, 1, 0)
+> 
+> 
+> # Evaluating model accuracy
+> # using confusion matrix
+> table(test_reg$vs, predict_reg)
+   predict_reg
+    0 1
+  0 4 2
+  1 0 3
+> 
+> missing_classerr <- mean(predict_reg != test_reg$vs)
+> print(paste('Accuracy =', 1 - missing_classerr))
+[1] "Accuracy = 0.777777777777778"
+> 
+> # ROC-AUC Curve
+> ROCPred <- prediction(predict_reg, test_reg$vs)
+> ROCPer <- performance(ROCPred, measure = "tpr",
++                       x.measure = "fpr")
+> 
+> auc <- performance(ROCPred, measure = "auc")
+> auc <- auc@y.values[[1]]
+> auc
+[1] 0.8333333
+> 
+> # Plotting curve
+> plot(ROCPer)
+> plot(ROCPer, colorize = TRUE,
++      print.cutoffs.at = seq(0.1, by = 0.1),
++      main = "ROC CURVE")
+> abline(a = 0, b = 1)
+> 
+> auc <- round(auc, 4)
+> legend(.6, .4, auc, title = "AUC", cex = 1)
