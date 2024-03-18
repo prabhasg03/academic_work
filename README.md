@@ -1,24 +1,25 @@
-```
-This repository contains the academic work I completed during my Bachelor of Technology degree
-in Computer Science and Engineering(AIML).The work is divided into branches. Please check them below:
-```
-# First Semester(1st Year - 1st Semester)
-- [Programming for Problem Solving using C(PPS)](https://github.com/prabhasg03/Task-Codes/tree/C-language)
-# Second Semester(1st Year - 2nd Semester)
-- [Data Structures using C (DS)](https://github.com/prabhasg03/Task-Codes/tree/DS-using-C)
-# Third Semester(2nd Year - 1st Semester)
-- [Java Programming(JP)](https://github.com/prabhasg03/Task-Codes/tree/Java)
-- [Scripting Language Lab(SLL)](https://github.com/prabhasg03/Task-Codes/tree/SLL(Scripting-Language-Lab))
-- [Database Management Systems(DBMS)](https://github.com/prabhasg03/Task-Codes/tree/DBMS)
-# Fourth Semester(2nd Year - 2nd Semester)
-- [Python Programming(PP)](https://github.com/prabhasg03/Task-Codes/tree/Python)
-- [Operating System(OS)](https://github.com/prabhasg03/Task-Codes/tree/OS(Operating-System))
-- [Visual Programming using C# and .NET Lab](https://github.com/prabhasg03/Task-Codes/tree/VP-Lab)
-# Fifth Semester(3rd Year - 1st Semester)
-- [Data Warehousing and Data Mining](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining)
-- [Web Technologies](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies)
-- [R-Programming](https://github.com/prabhasg03/Task-Codes/tree/R-Programming)
-# Sixth Semester(3rd Year - 2nd Semester)
-- [Big Data Analytics Lab](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining)
-- [Machine Learning Lab](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies)
-- [Mini-Project](https://github.com/prabhasg03/Task-Codes/tree/R-Programming)
+# TASK 1
+[a) Understanding and using basic HDFS commands]()
+[b) Run a basic word count Map Reduce program to understand Map Reduce Paradigm]()
+# TASK 2
+[Write a Map Reduce program that mines weather data]()
+# TASK 3
+[Implement matrix multiplication with Hadoop Map Reduce.]()
+# TASK 4
+[Working with files in Hadoop file system: Reading, Writing and Copying]()
+# TASK 5
+Write Pig Latin scripts sort, group, join, project, and filter your data.
+# TASK 6
+Run the Pig Latin Scripts to find Word Count and max temp for each and every year.
+# TASK 7
+Writing User Defined Functions/Eval functions for filtering unwanted data in Pig
+# TASK 8
+Working with Hive QL, Use Hive to create, alter, and drop databases, tables, views, functions and indexes
+# TASK 9
+Writing User Defined Functions in Hive
+# TASK 10
+Understanding the processing of large dataset on Spark framework.
+# TASK 11
+Ingesting structured and unstructured data using sqoop and flume.
+# TASK 12
+Integrating Hadoop with other data analytic framework like R
