@@ -1,6 +1,6 @@
 # TASK 1
-[a) Understanding and using basic HDFS commands]()
-[b) Run a basic word count Map Reduce program to understand Map Reduce Paradigm]()
+- [a) Understanding and using basic HDFS commands]()
+- [b) Run a basic word count Map Reduce program to understand Map Reduce Paradigm]()
 # TASK 2
 [Write a Map Reduce program that mines weather data]()
 # TASK 3
