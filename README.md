@@ -17,13 +17,13 @@ Course Outcomes:
 Note: Implement the following Machine Learning Tasks using Python /R-Tool
 ```
 # Task 1
- - [Write a python program to import and export data using Pandas library functions.](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab/Task%201)
+ - [Write a python program to import and export data using Pandas library functions.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%201/Task%201.ipynb)
 # Task 2
- - [Demonstrate various data preprocessing techniques for a given dataset.](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab/Task%202)
+ - [Demonstrate various data preprocessing techniques for a given dataset.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%202/Task%202.ipynb)
 # Task 3
- - [Implement Dimensionality reduction using Principle Component Analysis (PCA) method.](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab/Task%203)
+ - [Implement Dimensionality reduction using Principle Component Analysis (PCA) method.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%203/Task%203.ipynb)
 # Task 4
- - [Write a Python program to demonstrate various Data Visualization Techniques.](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab/Task%204)
+ - [Write a Python program to demonstrate various Data Visualization Techniques.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%204/Task%204.ipynb)
 # Task 5
  - [Implement Simple and Multiple Linear Regression Models.]()
 # Task 6
