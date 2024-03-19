@@ -1,8 +1,8 @@
 # TASK 1
 - [a) Understanding and using basic HDFS commands]()
-- [b) Run a basic word count Map Reduce program to understand Map Reduce Paradigm]()
+- [b) Run a basic word count Map Reduce program to understand Map Reduce Paradigm](https://github.com/prabhasg03/Task-Codes/blob/Big-Data-Analytics-Lab/Task%201/1b.java)
 # TASK 2
-[Write a Map Reduce program that mines weather data]()
+[Write a Map Reduce program that mines weather data](https://github.com/prabhasg03/Task-Codes/blob/Big-Data-Analytics-Lab/Task%202/Task2.java)
 # TASK 3
 [Implement matrix multiplication with Hadoop Map Reduce.]()
 # TASK 4
