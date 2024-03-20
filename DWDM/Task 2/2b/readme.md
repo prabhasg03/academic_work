@@ -8,16 +8,12 @@ for loan approval decision. There is increase in the accuracy of the model when 
  - Select the attributes:"foreign-workers"
  - Remove attribute by click on "remove" option. 
 i) If Foreign_worker is removed. Here use training set is used for testing the model.
-```
 ![image](https://github.com/prabhasg03/Task-Codes/assets/121883587/9b689970-4d30-41dd-83d3-652c1c386980)
-```
 Correctly Classified Instances 859. Accuracy = 85.9% Accuracy when "foreign-workers" was<br>
 not removed with use training set for testing is 85.5%. In such a way accuracy has been <br>
 increased by 0.4%.<br>
 ii) If personal_status is removed. Use training set is used for testing the model.<br>
-```
 ![image](https://github.com/prabhasg03/Task-Codes/assets/121883587/4092b991-30e0-49fd-8538-879676044d5e)
-```
 Correctly Classified Instances =866. Accuracy = 86.6 % Accuracy when "Personal_status"<br>
 was not removed with Use training set for testing is 85.5%. Accuracy is increased by 1.1%.<br> 
 Since accuracy is increased by removing this attribute,it was concluded that "Personal-status"<br>
