@@ -1,10 +1,10 @@
 # Procedure:-
 <ol>
- - 1.)Open the WEKA GUI chooser
- - 2.)Select Explorer present in Applications
- - 3.)Select Preprocess tab
- - 4.)Go to OPEN file and browse the file that in already stored in the system credit-g.arff
- - 5.)checking on any attribute in the left panel will show the basic statistics on that selected attributes.
+ <li>Open the WEKA GUI chooser</li>
+ <li>Select Explorer present in Applications</li>
+ <li>Select Preprocess tab</li>
+ <li>Go to OPEN file and browse the file that in already stored in the system credit-g.arff</li>
+ <li>checking on any attribute in the left panel will show the basic statistics on that selected attributes.</li>
 </ol>
 # Output:-
 ```
