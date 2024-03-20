@@ -1,3 +1,5 @@
+# Task 1(a):
+List all the categorical (or nominal) attributes and the real-valued attributes separately. 
 # Procedure:-
 <ol>
  <li>Open the WEKA GUI chooser</li>
