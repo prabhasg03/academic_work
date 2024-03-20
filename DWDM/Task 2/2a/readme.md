@@ -11,7 +11,7 @@ examples in the dataset.<br>
 For example: IF purpose=vacation <br>
       THEN credit=bad <br> 
       ELSE<br>
-        purpose=business THEN Credit=good <br>
+        purpose=business THEN Credit=good <br><br>
 In this way we classified each of the examples in the dataset. <br>
 We classified 85.5% of examples correctly and the remaining 14.5% of examples are incorrectly <br> 
 classified. We can„t get 100% training accuracy because out of the 20 attributes, we have some <br>
