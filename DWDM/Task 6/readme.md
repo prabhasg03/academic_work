@@ -11,22 +11,22 @@ rule obtained by training a one R classifier. Rank the performance of j48, PART 
 - [OneR]()
 - [PART]()
 # Conclusion
-In weka, rules.PART is one of the classifier which converts the decision trees into ―IF-THEN ELSE rules.converting Decision trees into IF-THEN-ELSE rules using rules.
-<b>PART classifier:-<b>
-PART decision list 
-checking_status = no checking AND 
-other_payment_plans = none AND 
-credit_history = critical/other existing credit: good (134.0/3.0) 
-Number of Rules :78
-OneR:
-Yes, sometimes just one attribute can be good enough in making the decision. In this dataset 
-(Weather), Single attribute for making the decision is credit_amount 
-credit_amount: 
-< 718.0 
-< 759.5 -> good -> bad 
-(743/1000 instances correct) 
-With respect to the time, the oneR classifier has higher ranking and J48 is in 2nd place and PART gets 3rd place.  
-<table>
+In weka, rules.PART is one of the classifier which converts the decision trees into ―IF-THEN ELSE rules.converting Decision trees into IF-THEN-ELSE rules using rules.<br>
+<b>PART classifier:-</b><br>
+PART decision list<br>
+checking_status = no checking AND<br> 
+other_payment_plans = none AND <br>
+credit_history = critical/other existing credit: good (134.0/3.0)<br> 
+Number of Rules :78<br>
+OneR:<br>
+Yes, sometimes just one attribute can be good enough in making the decision.<br>
+In this dataset (credit_g.arff), Single attribute for making the decision is credit_amount<br>
+credit_amount:<br>
+< 718.0 -> good <br>
+< 759.5 -> bad <br>
+(743/1000 instances correct)<br>
+With respect to the time, the oneR classifier has higher ranking and J48 is in 2nd place and PART gets 3rd place.<br>
+<table cellspacing='2' cellpadding='2'>
   <tr>
     <th></th>
     <th>J48</th>
