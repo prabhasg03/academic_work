@@ -1,6 +1,5 @@
 # Task 3
-One approach for solving the problem encountered in the previous question is using cross- 
-validation? Describe what cross-validation is briefly. Train a Decision Tree again using cross- 
+One approach for solving the problem encountered in the previous question is using cross-validation? Describe what cross-validation is briefly. Train a Decision Tree again using cross- 
 validation and report your results. Does your accuracy increase/decrease? Why? 
 # Explanation
 In cross-validation you decided on a fixed number of folds or partitions of the data. Two-third for 
