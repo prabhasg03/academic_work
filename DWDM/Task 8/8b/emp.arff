@@ -1,0 +1,17 @@
+@relation employee
+@attribute age{<25,25-35,35-50}
+@attribute income{10k,15k,17k,20k,30k,40k}
+@attribute performance{poor,avg,good,best}
+@attribute department{sales,management,production}
+@data
+<25,10k,avg,sales
+<25,15k,avg,sales
+<25,15k,good,sales
+25-35,17k,avg,management
+35-50,17k,poor,management
+35-50,20k,good,management
+35-50,20k,best,management
+25-35,30k,good,production
+25-35,30k,good,production
+25-35,40k,best,production
+25-35,40k,poor,production
