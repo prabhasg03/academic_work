@@ -1,0 +1,25 @@
+@relation 'Weather-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0'
+
+@attribute outlook {sunny,overcast,rainy,windy}
+@attribute temperature numeric
+@attribute humidity numeric
+@attribute windy {true,false}
+@attribute play {y,n}
+
+@data
+sunny,1,1,true,y
+windy,0.615385,0.4,true,n
+sunny,0.769231,0.5,true,y
+windy,0.692308,0.4,true,n
+sunny,0.692308,0.6,true,y
+windy,0.461538,0.3,true,n
+sunny,0.461538,0.4,true,y
+windy,0.538462,0.3,true,n
+rainy,0.384615,0,false,n
+rainy,0.307692,0,true,n
+rainy,0.230769,0,true,n
+rainy,0,0,false,n
+overcast,1,0.4,true,y
+overcast,0.923077,0.5,true,y
+overcast,0.923077,0.8,true,y
+overcast,0.692308,0.7,false,n
