@@ -10,3 +10,4 @@
 - Select the attributes student and stustatus to Remove.
 - Click Remove button and then Save.
 - Click on the Edit button, it shows a new Student Table on Weka
+# Output
