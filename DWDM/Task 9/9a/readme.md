@@ -4,27 +4,29 @@ Create a data set Weather.arff with required fields
 - Open Start → Programs →Accessories → Notepad
 - Type the following training data set with the help of Notepad for Weather Table.
 ```
-@relation weather
-@attribute outlook {sunny, overcast, rainy}
+@relation Weather
+@attribute outlook{sunny,overcast,rainy,windy}
 @attribute temperature real
 @attribute humidity real
-@attribute windy {TRUE, FALSE}
-@attribute play {yes, no}
+@attribute windy{true,false}
+@attribute play{y,n}
 @data
-sunny,85,85,FALSE,no
-sunny,80,90,TRUE,no
-overcast,83,86,FALSE,yes
-rainy,70,96,FALSE,yes
-rainy,68,80,FALSE,yes
-rainy,65,70,TRUE,no
-overcast,64,65,TRUE,yes
-sunny,72,95,FALSE,no
-sunny,69,70,FALSE,yes
-rainy,75,80,FALSE,yes
-sunny,75,70,TRUE,yes
-overcast,72,90,TRUE,yes
-overcast,81,75,FALSE,yes
-rainy,71,91,TRUE,no
+sunny,47,50,true,y
+windy,42,44,true,n
+sunny,44,45,true,y
+windy,43,44,true,n
+sunny,43,46,true,y
+windy,40,43,true,n
+sunny,40,44,true,y
+windy,41,43,true,n
+rainy,39,40,false,n
+rainy,38,40,true,n
+rainy,37,40,true,n
+rainy,34,40,false,n
+overcast,47,44,true,y
+overcast,46,45,true,y
+overcast,46,48,true,y
+overcast,43,47,false,n
 ```
 - After that the file is saved with .arff file format.
 - Minimize the arff file and then open Start -> Programs -> weka-3-9.
