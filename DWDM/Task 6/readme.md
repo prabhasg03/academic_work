@@ -35,8 +35,8 @@ With respect to the time, the oneR classifier has higher ranking and J48 is in 2
   </tr>
   <tr>
     <th>Time(Sec)</th>
-    <td>0.02</td>
-    <td>0.12</td>
+    <td>0.1</td>
+    <td>0.24</td>
     <td>0.01</td>
   </tr>
   <tr>
@@ -58,12 +58,12 @@ With respect to the accuracy , the PART classifier has higher ranking and j48 is
     <th>Accuracy(%)</th>
     <td>85.5</td>
     <td>89.7</td>
-    <td>74.3</td>
+    <td>96.3</td>
   </tr>
   <tr>
     <th>Rank</th>
+    <td>III</td>
     <td>II</td>
     <td>I</td>
-    <td>III</td>
   </tr>
 </table>
