@@ -7,9 +7,9 @@ decision, yes, just one ! Can you predict what attribute that might be in this d
 uses a single attribute to make decisions (it chooses the attribute based on minimum error). Report the 
 rule obtained by training a one R classifier. Rank the performance of j48, PART and oneR.
 # Procedures:
-- [J48]()
-- [OneR]()
-- [PART]()
+- [J48](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%206/J48)
+- [OneR](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%206/OneR)
+- [PART](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%206/PART)
 # Conclusion
 In weka, rules.PART is one of the classifier which converts the decision trees into ―IF-THEN ELSE rules.converting Decision trees into IF-THEN-ELSE rules using rules.<br>
 <b>PART classifier:-</b><br>
