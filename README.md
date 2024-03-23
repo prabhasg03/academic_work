@@ -1,11 +1,11 @@
 # TASK 1
-- [A. Create a HTML page of your present class timetable.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%201/1a.html)
+- [A. Create a HTML page of your present class timetable.](https://prabhasg03.github.io/Task-Codes/Task%201/1a.html)
 - [B. Write JavaScript code to change the HTML contents and attributes.
 Ex: Change the text of html page on a button click and program to switch on and off
-the light on the button click.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%201/1b.html)
+the light on the button click.](https://prabhasg03.github.io/Task-Codes/Task%201/1b.html)
 # TASK 2
 ## VALIDATION:
-- [Write JavaScript to validate the following fields of the above registration page.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%202/Task%202.html)
+- [Write JavaScript to validate the following fields of the above registration page.](https://prabhasg03.github.io/Task-Codes/Task%202/Task%202.html)
 ```
   1. Name (Name should contains alphabets and the length should not be less than 6 characters).
   2. Password (Password should not be less than 6 characters length).
@@ -15,9 +15,9 @@ the light on the button click.](https://github.com/prabhasg03/Task-Codes/blob/We
 - Design a web page using CSS (Cascading Style Sheets) which includes the following:
   - [1.Use different font, styles:
     In the style definition you define how each selector should work (font, color etc.).
-    Then, in the body of your pages, you refer to these selectors to activate the styles.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%203/3.1.html)
-  - [2. Set a background image for both the page and single elements on the page.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%203/3.2.html)
-  - [3. Work with layers in CSS.](https://github.com/prabhasg03/Task-Codes/blob/Web-Technologies/Task%203/3.3.html)
+    Then, in the body of your pages, you refer to these selectors to activate the styles.](https://prabhasg03.github.io/Task-Codes/Task%203/3.1.html)
+  - [2. Set a background image for both the page and single elements on the page.](https://prabhasg03.github.io/Task-Codes/Task%203/3.2.html)
+  - [3. Work with layers in CSS.](https://prabhasg03.github.io/Task-Codes/Task%203/3.3.html)
 # TASK 4
 Write an XML file which will display the Book information which includes the following:
 ```
@@ -34,12 +34,10 @@ The contents should be displayed in a table. The header of the table should be i
 GREY. And the Author names column should be displayed in one color and should be
 capitalized and in bold. Use your own colors for remaining columns.
 Use XML schemas XSL and CSS for the above purpose. Note:
-Give at least for 4 books. It should be valid syntactically]()
+Give at least for 4 books. It should be valid syntactically](https://prabhasg03.github.io/Task-Codes/Task%204/lib.xml)
 # TASK 5
-[A. Consider an XML for library. Create XSLT for library XML to display the values in
-tabular format]()
-[B. Create a Single page Application(SPA) where navigation between the pages is performed
-without refreshing the whole page using angularJS]()
+[A. Consider an XML for library. Create XSLT for library XML to display the values in tabular format](https://prabhasg03.github.io/Task-Codes/Task%205/5a/lib.xml)
+[B. Create a Single page Application(SPA) where navigation between the pages is performed without refreshing the whole page using angularJS](https://prabhasg03.github.io/Task-Codes/Task%205/5b/5b.html)
 # TASK 6
 ## VISUAL BEANS:
 - [Create a simple visual bean with a area filled with a color.
