@@ -1,0 +1,43 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 10 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1 -S -1.0 -c -1
+Relation:     employee
+Instances:    11
+Attributes:   4
+              age
+              income
+              performance
+              department
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.2 (2 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 16
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 15
+
+Size of set of large itemsets L(2): 17
+
+Size of set of large itemsets L(3): 8
+
+Size of set of large itemsets L(4): 1
+
+Best rules found:
+
+ 1. department=production 4 ==> age=25-35 4    <conf:(1)> lift:(2.2) lev:(0.2) [2] conv:(2.18)
+ 2. department=sales 3 ==> age=<25 3    <conf:(1)> lift:(3.67) lev:(0.2) [2] conv:(2.18)
+ 3. age=<25 3 ==> department=sales 3    <conf:(1)> lift:(3.67) lev:(0.2) [2] conv:(2.18)
+ 4. age=35-50 3 ==> department=management 3    <conf:(1)> lift:(2.75) lev:(0.17) [1] conv:(1.91)
+ 5. income=15k 2 ==> age=<25 2    <conf:(1)> lift:(3.67) lev:(0.13) [1] conv:(1.45)
+ 6. income=30k 2 ==> age=25-35 2    <conf:(1)> lift:(2.2) lev:(0.1) [1] conv:(1.09)
+ 7. income=40k 2 ==> age=25-35 2    <conf:(1)> lift:(2.2) lev:(0.1) [1] conv:(1.09)
+ 8. income=20k 2 ==> age=35-50 2    <conf:(1)> lift:(3.67) lev:(0.13) [1] conv:(1.45)
+ 9. income=15k 2 ==> department=sales 2    <conf:(1)> lift:(3.67) lev:(0.13) [1] conv:(1.45)
+10. income=17k 2 ==> department=management 2    <conf:(1)> lift:(2.75) lev:(0.12) [1] conv:(1.27)
+
