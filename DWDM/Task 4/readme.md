@@ -16,5 +16,14 @@ Another question might be, do you really need to input so many attributes to get
 - Check whether removing these attributes have any significant effect.
 # Output
 - Classfication Tree with all Attributes
-- 
+
 ![Screenshot 2024-03-23 195355](https://github.com/prabhasg03/Task-Codes/assets/121883587/1e632bf1-0e1c-47ba-8ed8-ce4f6ce35576)
+
+For detailed Output:[output.model](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%204/output.model)
+
+- Classification Tree with removal of 2, 3, 5, 7, 10, 17, 21 Attributes
+
+![Screenshot 2024-03-23 203348](https://github.com/prabhasg03/Task-Codes/assets/121883587/6836926c-c5de-40bf-b340-2720cfa47720)
+
+For detailed Output:[output.model](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%204/output1.model)
+- We can say that Accuracy is increased by seeing correctly classified instances raised from 855 to 961
