@@ -2,6 +2,7 @@
 What attributes do you think might be crucial in making the credit assessement ? 
 Come up with some simple rules in plain English using your selected attributes.
 # Explanation
+```
 According to me the following attributes may be crucial in making the credit risk assessment.<br>
 The crucial attribute in making credit assessment are: <br>
 a) CHECKING <br>
@@ -21,6 +22,4 @@ as good<br>
 6) If HISTORY is critical or other existing and OTHER is none then also the applicant is treated as GOOD.<br> 
 7) If DURATION is less and HISTORY is critical or other existing then also an applicant is treated as GOOD.<br>
 Based on the above attributes, we can make a decision whether to give credit or not.<br>
-# Output
-```
 ```
