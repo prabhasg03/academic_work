@@ -26,4 +26,4 @@ For detailed Output:[output.model](https://github.com/prabhasg03/Task-Codes/tree
 ![Screenshot 2024-03-23 203348](https://github.com/prabhasg03/Task-Codes/assets/121883587/6836926c-c5de-40bf-b340-2720cfa47720)
 
 For detailed Output:[output.model](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%204/output1.model)
-- We can say that Accuracy is increased by seeing correctly classified instances raised from 855 to 961
+- We can say that Accuracy is increased by seeing correctly classified instances raised from 855 to 963
