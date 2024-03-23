@@ -9,8 +9,6 @@ For example: IF purpose=vacation <br>
       THEN credit=bad <br> 
       ELSE<br>
         purpose=business THEN Credit=good <br><br>
-In this way we classified each of the examples in the dataset. <br>
-We classified 85.5% of examples correctly and the remaining 14.5% of examples are incorrectly <br> 
-classified. We can„t get 100% training accuracy because out of the 20 attributes, we have some <br>
-unnecessary attributes which are also been analyzed and trained. <br>
-Due to this the accuracy is affected and hence we can„t get 100% training accuracy.<br> 
+<p>In this way we classified each of the examples in the dataset.We classified 85.5% of examples correctly and the remaining 14.5% of examples are incorrectly
+classified. We can't get 100% training accuracy because out of the 20 attributes, we have some unnecessary attributes which are also been analyzed and trained.
+Due to this the accuracy is affected and hence we can't get 100% training accuracy.</p>
