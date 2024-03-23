@@ -34,3 +34,7 @@ work. (either in preprocessing or in selecting current parameters for the classi
 25-35,40k,poor,production
 ```
 # Output
+
+![Screenshot 2024-03-23 223133](https://github.com/prabhasg03/Task-Codes/assets/121883587/98a0330b-a10d-487b-988c-faf7d9cf8d13)
+
+For Detailed Output:[naivebayes.model](https://github.com/prabhasg03/Task-Codes/blob/Data-Warehousing-and-Data-Mining/DWDM/Task%2010/10b/naivebayes.model)
