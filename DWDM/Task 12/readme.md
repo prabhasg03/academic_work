@@ -49,3 +49,6 @@ top portion of this file is shown in the following figure
 >40, medium, no, excellent, no
 ```
 # Output
+For Detailed Output: [kmeans.model](https://github.com/prabhasg03/Task-Codes/blob/Data-Warehousing-and-Data-Mining/DWDM/Task%2012/kmeans.model)
+
+![Screenshot 2024-03-23 224601](https://github.com/prabhasg03/Task-Codes/assets/121883587/f2a18356-ebee-4e66-a0ba-d3bb35b532d0)
