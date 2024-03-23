@@ -17,51 +17,29 @@ very hard to get German citizenship if you were not born of German parents.
 applicant into two categories: good orbad.
 ```
 # TASK 1
-- [List all the categorical (or nominal) attributes and the real-valued attributes separately. What 
-attributes do you think might be crucial in making the credit assessment? Come up with some 
-simple rules in plain English using your selected attributes. One type of model that you can 
-create is a Decision Tree - train a Decision Tree using the complete dataset as the training data. 
-Report the model obtained after training.]()
+- [List all the categorical (or nominal) attributes and the real-valued attributes separately. What attributes do you think might be crucial in making the credit assessment? Come up with some simple rules in plain English using your selected attributes. One type of model that you can create is a Decision Tree - train a Decision Tree using the complete dataset as the training data.Report the model obtained after training.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%201)
 # TASK 2
-- [Suppose you use your above model (task1) trained on the complete dataset, and classify credit 
-good/bad for each of the examples in the dataset. What % of examples can you classify 
-correctly? (This is also called testing on the training set) Why do you think you cannot get 100 
-% training accuracy? Why or Why not? Check to see if the data shows a bias against "foreign 
-workers" (attribute 20),or "personal-status" (attribute 9). Did removing these attributes have 
-any significant effect? Discuss.]()
+- [Suppose you use your above model (task1) trained on the complete dataset, and classify credit good/bad for each of the examples in the dataset. What % of examples can you classify correctly? (This is also called testing on the training set) Why do you think you cannot get 100 % training accuracy? Why or Why not? Check to see if the data shows a bias against "foreign workers" (attribute 20),or "personal-status"(attribute 9). Did removing these attributes have any significant effect? Discuss.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%202)
 # TASK 3
-- [Describe what cross-validation is briefly. Train a Decision Tree again using cross-validation 
-and report your results. Does your accuracy increase/decrease? Why?]()
+- [Describe what cross-validation is briefly. Train a Decision Tree again using cross-validation and report your results. Does your accuracy increase/decrease? Why?](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%203)
 # TASK 4
-- [Another question might be, do you really need to input so many attributes to get good results? 
-Maybe only a few would do. For example, you could try just having attributes 2, 3, 5, 7, 10, 17 
-(and 21, the class attribute (naturally)). Try out some combinations. Train your Decision Tree 
-again and report the Decision Tree and cross-validation results.]()
+- [Another question might be, do you really need to input so many attributes to get good results? Maybe only a few would do. For example, you could try just having attributes 2, 3, 5, 7, 10, 17 (and 21, the class attribute (naturally)). Try out some combinations. Train your Decision Tree again and report the Decision Tree and cross-validation results.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%204)
 # TASK 5
-- [Do you think it is a good idea to prefer simple decision trees instead of having long complex 
-decision trees? How does the complexity of a Decision Tree relate to the bias of the model? 
-You can make your Decision Trees simpler by pruning the nodes. One approach is to use 
-Reduced Error Pruning - Explain this idea briefly. Try reduced error pruning for training your 
-Decision Trees using cross- validation (you can do this in Weka) and report the Decision Tree 
-you obtain? Also, report your accuracy using the pruned model. Does your accuracy increase?]()
+- [Do you think it is a good idea to prefer simple decision trees instead of having long complex decision trees? How does the complexity of a Decision Tree relate to the bias of the model? You can make your Decision Trees simpler by pruning the nodes. One approach is to use Reduced Error Pruning - Explain this idea briefly. Try reduced error pruning for training your Decision Trees using cross- validation (you can do this in Weka) and report the Decision Tree you obtain? Also, report your accuracy using the pruned model. Does your accuracy increase?](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%205)
 # TASK 6
-- [How can you convert a Decision Trees into "if-then-else rules". Make up your own small 
-Decision Tree consisting of 2-3 levels and convert it into a set of rules. There also exist different 
-classifiers that output the model in the form of rules - one such classifier in Weka is rules. 
-PART, train this model and report the set of rules obtained. Sometimes just one attribute can 
-be good enough in making the decision, yes, just one! Can you predict what attribute that might 
-be in this dataset? Report the rule obtained by training a one R classifier. Rank the performance 
-of j48, PART and one R.]()
+- [How can you convert a Decision Trees into "if-then-else rules". Make up your own small Decision Tree consisting of 2-3 levels and convert it into a set of rules. There also exist different 
+classifiers that output the model in the form of rules - one such classifier in Weka is rules.PART, train this model and report the set of rules obtained. Sometimes just one attribute can 
+be good enough in making the decision, yes, just one! Can you predict what attribute that might  be in this dataset? Report the rule obtained by training a one R classifier. Rank the performance 
+of j48, PART and one R.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%207)
 # TASK 7
- - [(a) Create a data set Student.arff with required data.]()
- - [(b) Demonstrate preprocessing techniques on dataset Student.arff]()
+ - [(a) Create a data set Student.arff with required data.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%207/7a)
+ - [(b) Demonstrate preprocessing techniques on dataset Student.arff](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%207/7b)
 # TASK 8
-- [(a) Create a data set Employee.arff by adding required data fields.]()
-- [(b) Apply Association rule mining on dataset Employee.arff (Use Apriori Algorithm)]()
+- [(a) Create a data set Employee.arff by adding required data fields.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%208/8a)
+- [(b) Apply Association rule mining on dataset Employee.arff (Use Apriori Algorithm)](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%208/8b)
 # TASK 9
-- [(a) Create a data set Weather.arff with required fields.]()
-- [(b) Apply preprocessing techniques on dataset Weather.arff and normalize Weather Table 
-data using Knowledge Flow.]()
+- [(a) Create a data set Weather.arff with required fields.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%209/9a)
+- [(b) Apply preprocessing techniques on dataset Weather.arff and normalize Weather Table data using Knowledge Flow.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%209/9b)
 # TASK 10
 - [(a) Demonstrate classification algorithm on dataset student.arff using j48 algorithm]()
 - [(b) Demonstration of classification rule process on dataset employee.arff using naïve bayes algorithm]()
