@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lib.xsl"?>
+<!DOCTYPE note SYSTEM "lib.dtd">
+<!--Write an XML file which will display the Book information which includes the following:
+1) Title of the book
+2) Author Name
+3) ISBN number
+4) Publisher name
+5) Edition
+6) Price
+Write a Document Type Definition (DTD) to validate the above XML file.
+Display the XML file as follows.
+The contents should be displayed in a table. The header of the table should be in color GREY. And the
+Author names column should be displayed in one color and should be capitalized and in bold. Use your
+own colors for remaining columns.
+Use XML schemas XSL and CSS for the above purpose.
+Note: Give at least for 4 books. It should be valid syntactically-->
+<lib>
+  <book>
+    <title>C</title>
+    <author>BALAGURUSWAMY</author>
+    <isbn-no>9915</isbn-no>
+    <publisher>Tata-McGrawHill</publisher>
+    <edition>3rd</edition>
+    <price>Rs.250</price>
+  </book>
+  <book>
+    <title>Java</title>
+    <author>HEBERT SCHILDTZ</author>
+    <isbn-no>3515</isbn-no>
+    <publisher>Pearson</publisher>
+    <edition>8th</edition>
+    <price>Rs.650</price>
+  </book>
+  <book>
+    <title>UML</title>
+    <author>WILLIAM STALLINGS</author>
+    <isbn-no>3315</isbn-no>
+    <publisher>Pearson</publisher>
+    <edition>3rd</edition>
+    <price>Rs.300</price>
+  </book>
+  <book>
+    <title>STM</title>
+    <author>BORIS BEIZER</author>
+    <isbn-no>9915</isbn-no>
+    <publisher>Tata-McGrawHill</publisher>
+    <edition>2nd</edition>
+    <price>Rs.400</price>
+  </book>
+  <book>
+    <title>Wings of Fire</title>
+    <author>APJ ABDUL KALAM</author>
+    <isbn-no>1234</isbn-no>
+    <publisher>HarperCollins</publisher>
+    <edition>1st</edition>
+    <price>Rs.350</price>
+  </book>
+</lib>

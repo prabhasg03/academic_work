@@ -1,0 +1,47 @@
+<!--
+Task 5(b): Create a Single page Application (SPA) where navigation between the pages is
+performed without refreshing the whole page using AngularJS
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        a,p{
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            color:black;
+        }
+    </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+</head>
+<body ng-app="myApp">
+  <p><a href="#/!">Main</a></p>
+  <a href="#!/red">Red</a><br>
+  <a href="#!/green">Green</a><br>
+  <a href="#!/blue">Blue</a><br>
+  <div ng-view></div>
+  <script>
+    var app = angular.module("myApp", ["ngRoute"]);
+    app.config(function($routeProvider) {
+      $routeProvider
+      .when("/", {
+        templateUrl: "main.htm"
+      })
+      .when("/red", {
+        templateUrl: "red.htm"
+      })
+      .when("/green", {
+        templateUrl: "green.htm"
+      })
+      .when("/blue", {
+        templateUrl: "blue.htm"
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
+    });
+  </script>
+  <p>Click on the links to navigate to "red.htm", "green.htm", "blue.htm", or back to "main.htm"</p>
+</body>
+</html>
