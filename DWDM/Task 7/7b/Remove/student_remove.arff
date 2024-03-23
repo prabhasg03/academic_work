@@ -1,0 +1,22 @@
+@relation student-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.Remove-R5
+
+@attribute age {<30,30-40,>40}
+@attribute income {low,medium,high}
+@attribute student {yes,no}
+@attribute credit-rating {fair,excellent}
+
+@data
+<30,high,no,fair
+<30,high,no,excellent
+30-40,high,no,fair
+>40,medium,no,fair
+>40,low,yes,fair
+>40,low,yes,excellent
+30-40,low,yes,excellent
+<30,medium,no,fair
+<30,low,yes,fair
+>40,medium,yes,fair
+<30,medium,yes,excellent
+30-40,medium,no,excellent
+30-40,high,yes,fair
+>40,medium,no,excellent
