@@ -19,9 +19,5 @@ ii) If personal_status is removed. Use training set is used for testing the mode
 ![Screenshot 2024-03-23 200558](https://github.com/prabhasg03/Task-Codes/assets/121883587/aeeb3064-7e1f-424d-8f96-832204177120)
 
 For Detailed Output : [output2.model](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%202/2b/output2.model)
-Correctly Classified Instances =866. Accuracy = 86.6 % Accuracy when "Personal_status"<br>
-was not removed with Use training set for testing is 85.5%. Accuracy is increased by 1.1%.<br> 
-Since accuracy is increased by removing this attribute,it was concluded that "Personal-status"<br>
-attribute is not required for analysis.<br>
-Hence we can preserve the "foreign-workers" attribute. Since there is no change in the <br>
-accuracy of the model after removing „foreign-workers‟ attribute.<br>
+<p>Correctly Classified Instances =866. Accuracy = 86.6 % Accuracy when "Personal_status" was not removed with Use training set for testing is 85.5%. Accuracy is increased by 1.1%.</p>
+<p>Since accuracy is increased by removing this attribute,it was concluded that "Personal-status" attribute is not required for analysis.Hence we can preserve the "foreign-workers" attribute. Since there is no change in the accuracy of the model after removing "foreign-workers" attribute.</p>
