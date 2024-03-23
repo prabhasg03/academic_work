@@ -1,9 +1,6 @@
 # TASK 2(a) 
-Suppose you use your above model trained on the complete dataset, and classify credit <br>
-good/bad for each of the examples in the dataset. What % of examples can you classify correctly? (This <br> 
-is also called testing on the training set) Why do you think you cannot get 100 % training accuracy?<br>
-Why or Why not?Check to see if the data shows a bias against "foreign workers" (attribute 20),or <br>
-"personal-status" (attribute 9).Did removing these attributes have any significant effect? Discuss.<br>
+<p>Suppose you use your above model trained on the complete dataset, and classify credit good/bad for each of the examples in the dataset. What % of examples can you classify correctly? (This is also called testing on the training set) Why do you think you cannot get 100 % training accuracy?Why or Why not?Check to see if the data shows a bias against "foreign workers" (attribute 20),or "personal-status" (attribute 9).Did removing these attributes have any significant effect? Discuss.</p>
+
 # Explanation:
 In the above model we trained complete dataset and we classified credit good/bad for each of the<br>
 examples in the dataset.<br>
