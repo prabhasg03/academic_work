@@ -33,3 +33,5 @@ Create a data set Student.arff with required data
 - Explorer shows many options. In that click on „open file‟ and select the arff file 
 - Click on edit button which shows student table on weka.
 # Output
+
+![Screenshot 2024-03-23 210802](https://github.com/prabhasg03/Task-Codes/assets/121883587/81438290-9f48-4086-a43d-c18bd5af2488)
