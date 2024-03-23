@@ -28,3 +28,5 @@ p,senior,high,A
 - Explorer shows many options. In that click on "open file" and select the arff file
 - Click on edit button which shows customer table on weka
 # Output
+
+![Screenshot 2024-03-23 223514](https://github.com/prabhasg03/Task-Codes/assets/121883587/c5f15ef0-73a6-4814-bcc9-a447c43a0136)
