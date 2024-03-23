@@ -15,6 +15,5 @@ clicking the button choose and select tree j48<br>
 10) now we can see the output details in the Classifier output.<br>
 11) Right click on the result list and select visualize tree ―option.
 # Output
-'''
-
-'''
+```
+```
