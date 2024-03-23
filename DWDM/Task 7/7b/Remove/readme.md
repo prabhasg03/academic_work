@@ -11,3 +11,10 @@
 - Click Remove button and then Save.
 - Click on the Edit button, it shows a new Student Table on Weka
 # Output
+Original Dataset:[student.arff](https://github.com/prabhasg03/Task-Codes/blob/Data-Warehousing-and-Data-Mining/DWDM/Task%207/7b/Remove/student.arff)
+
+![Screenshot 2024-03-23 210802](https://github.com/prabhasg03/Task-Codes/assets/121883587/f765b88a-c9ba-4df1-bbc1-1749181e9ab6)
+
+Remove Dataset:[student_remove.arff](https://github.com/prabhasg03/Task-Codes/blob/Data-Warehousing-and-Data-Mining/DWDM/Task%207/7b/Remove/student_remove.arff)
+
+![Screenshot 2024-03-23 215655](https://github.com/prabhasg03/Task-Codes/assets/121883587/0211dc77-bdcf-4f44-ae54-60d2479f272c)
