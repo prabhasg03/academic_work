@@ -11,7 +11,7 @@ c) OTHER
 d) HOUSING 
 e) HISTORY 
 f) Duration 
-**Simple Rules for credit assessment:** 
+Simple Rules for credit assessment:- 
 1) If an applicant is foreign worker other is none i.e., if an applicant is not having any other credits
 and checking status is no then the applicant is treated as good<
 2) If an applicant is foreign worker and then checking status is none then also an applicant is treated as good<
