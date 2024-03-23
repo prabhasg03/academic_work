@@ -21,3 +21,6 @@ as good<br>
 6) If HISTORY is critical or other existing and OTHER is none then also the applicant is treated as GOOD.<br> 
 7) If DURATION is less and HISTORY is critical or other existing then also an applicant is treated as GOOD.<br>
 Based on the above attributes, we can make a decision whether to give credit or not.<br>
+# Output
+```
+```
