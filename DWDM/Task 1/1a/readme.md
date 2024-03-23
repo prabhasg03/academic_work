@@ -11,4 +11,4 @@ List all the categorical (or nominal) attributes and the real-valued attributes 
 
 # Output:-
 
-![Screenshot (59)](https://github.com/prabhasg03/Task-Codes/assets/121883587/269d94af-af73-4221-a42d-b590af070f06)
+![Screenshot (59)](https://github.com/prabhasg03/Task-Codes/assets/121883587/119f9575-fc27-4c18-9943-8d925b7f6db5)
