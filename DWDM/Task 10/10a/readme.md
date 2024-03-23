@@ -1,4 +1,4 @@
-# Task 10(a)
+![Screenshot 2024-03-23 222326](https://github.com/prabhasg03/Task-Codes/assets/121883587/b7459006-1618-404c-a97a-72b0f28fdbcc)# Task 10(a)
 Demonstration of classification algorithm on dataset student.arff using j48 algorithm
 # Procedure
 - We begin the experiment by loading the data (student.arff)into weka.
@@ -43,3 +43,12 @@ instances.
 30-40, high, yes, fair, yes
 >40, medium, no, excellent, no
 ```
+# Output
+- Using Cross Validation
+For Detailed Output:[cross.model](https://github.com/prabhasg03/Task-Codes/blob/Data-Warehousing-and-Data-Mining/DWDM/Task%2010/10a/cross.model)
+![Screenshot 2024-03-23 222326](https://github.com/prabhasg03/Task-Codes/assets/121883587/0c54cb22-79a5-4a00-b003-927e39a2bc5f)
+
+- Using Supplied Test
+For Detailed Output:[supplied.model](https://github.com/prabhasg03/Task-Codes/blob/Data-Warehousing-and-Data-Mining/DWDM/Task%2010/10a/supplied.model)
+![Screenshot 2024-03-23 222656](https://github.com/prabhasg03/Task-Codes/assets/121883587/108328e7-4c6b-4a68-9914-bf49d42a8891)
+
