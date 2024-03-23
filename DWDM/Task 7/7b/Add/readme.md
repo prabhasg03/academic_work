@@ -14,3 +14,5 @@
 - Save the file.
 - Click on the Edit button, it shows a new Student Table on Weka
 # Output
+
+![Screenshot 2024-03-23 214238](https://github.com/prabhasg03/Task-Codes/assets/121883587/db0ab9d9-cfe7-4f5e-88f7-fd412d5c0269)
