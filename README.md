@@ -41,7 +41,7 @@ Give at least for 4 books. It should be valid syntactically](https://prabhasg03.
 # TASK 6
 ## VISUAL BEANS:
 - [Create a simple visual bean with a area filled with a color.
-The shape of the area depends on the property shape. If it is set to true then the shape of the area is Square and it is Circle, if it is false.The color of the area should be changed dynamically for every mouse click. The color should also be changed if we change the color in the “property window “.]()
+The shape of the area depends on the property shape. If it is set to true then the shape of the area is Square and it is Circle, if it is false.The color of the area should be changed dynamically for every mouse click. The color should also be changed if we change the color in the "property window".](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%206/ColorsProject)
 # TASK 7
 ```
 1) Install TOMCAT web server and APACHE.
@@ -52,7 +52,7 @@ putting the web pages developed in week-1 and week-2 in the document root.
 ```
 [Access the pages by using the urls : 
 http://localhost:4040/rama/books.html (for tomcat)
-http://localhost:8080/books.html (for Apache)]()
+http://localhost:8080/books.html (for Apache)](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%207/readme.md)
 # TASK 8
 - [Assume four users user1,user2, user3 and user4 having the passwords pwd1,pwd2,pwd3 and
 pwd4 respectively. Write a servelet for doing the following:]()
