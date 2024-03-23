@@ -41,10 +41,10 @@ of j48, PART and one R.](https://github.com/prabhasg03/Task-Codes/tree/Data-Ware
 - [(a) Create a data set Weather.arff with required fields.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%209/9a)
 - [(b) Apply preprocessing techniques on dataset Weather.arff and normalize Weather Table data using Knowledge Flow.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%209/9b)
 # TASK 10
-- [(a) Demonstrate classification algorithm on dataset student.arff using j48 algorithm]()
-- [(b) Demonstration of classification rule process on dataset employee.arff using naïve bayes algorithm]()
+- [(a) Demonstrate classification algorithm on dataset student.arff using j48 algorithm](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%2010/10a)
+- [(b) Demonstration of classification rule process on dataset employee.arff using naïve bayes algorithm](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%2010/10b)
 # TASK 11
-- [(a) Create a data set customer.arff with required fields.]()
-- [(b) Write a procedure for Clustering Customer data using Simple K-Means Algorithm.]()
+- [(a) Create a data set customer.arff with required fields.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%2011/11a)
+- [(b) Write a procedure for Clustering Customer data using Simple K-Means Algorithm.](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%2011/11b)
 # TASK 12
-- [Demonstration of clustering rule process on dataset student.arff using simple k-means]()
+- [Demonstration of clustering rule process on dataset student.arff using simple k-means](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%2012)
