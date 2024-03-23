@@ -17,4 +17,4 @@ the complete dataset as the training data. Report the model obtained after train
 
 ![Screenshot 2024-03-23 195355](https://github.com/prabhasg03/Task-Codes/assets/121883587/47c9917b-fa58-40a3-8527-d52300819d9f)
 
-- For More Details - [Visit Output Model]()
+- For More Details - [Visit Output Model](https://github.com/prabhasg03/Task-Codes/blob/Data-Warehousing-and-Data-Mining/DWDM/Task%201/1c/output.model)
