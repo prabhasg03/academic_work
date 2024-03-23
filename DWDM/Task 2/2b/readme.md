@@ -8,12 +8,17 @@ for loan approval decision. There is increase in the accuracy of the model when 
  - Select the attributes:"foreign-workers"
  - Remove attribute by click on "remove" option.
 <br>
+Normal output with all attributes
+
+![Screenshot 2024-03-23 195355](https://github.com/prabhasg03/Task-Codes/assets/121883587/fb5c8d7d-52eb-47b0-a0f7-25074f7b4af2)
+
+For Detailed Output: For Detailed Output : [output.model](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%202/2b/output1.model)
 i) If Foreign_worker is removed. Here use training set is used for testing the model.<br>
 
 ![Screenshot 2024-03-23 200416](https://github.com/prabhasg03/Task-Codes/assets/121883587/fac37b74-ec9e-4481-be65-a0c8caecd45f)
 
 For Detailed Output : [output1.model](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%202/2b/output1.model)
-<p>Correctly Classified Instances 859. Accuracy = 85.9% Accuracy when "foreign-workers" was not removed with use training set for testing is 85.5%. In such a way accuracy has beenincreased by 0.4%.</p>
+<p>Correctly Classified Instances 859. Accuracy = 85.9% Accuracy when "foreign-workers" was not removed with use training set for testing is 85.5%. In such a way accuracy has been increased by 0.4%.</p>
 ii) If personal_status is removed. Use training set is used for testing the model.<br>
 
 ![Screenshot 2024-03-23 200558](https://github.com/prabhasg03/Task-Codes/assets/121883587/aeeb3064-7e1f-424d-8f96-832204177120)
