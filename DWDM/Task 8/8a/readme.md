@@ -29,3 +29,6 @@ Create a data set Employee.arff by adding required data fields
 - Explorer shows many options. In that click on open file and select the arff file
 - Click on edit button which shows student table on weka.
 # Output
+Dataset: [emp.arff](https://github.com/prabhasg03/Task-Codes/blob/Data-Warehousing-and-Data-Mining/DWDM/Task%208/8a/emp.arff)
+
+![Screenshot 2024-03-23 220043](https://github.com/prabhasg03/Task-Codes/assets/121883587/2cdc0e44-6da3-4d89-911b-eeb1269f8f22)
