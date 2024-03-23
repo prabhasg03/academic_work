@@ -1,0 +1,16 @@
+@relation customer
+@attribute name {p,q,r,s,t,u,v,w,x}
+@attribute age {youth,middle,senior}
+@attribute income {high,medium,low}
+@attribute class {A,B}
+@data
+q,youth,high,A
+p,youth,low,B
+s,middle,high,A
+u,middle,low,B
+v,senior,high,A
+s,senior,low,B
+t,youth,high,A
+q,youth,low,B
+r,middle,high,A
+p,senior,high,A
