@@ -35,3 +35,5 @@ overcast,43,47,false,n
 - Explorer shows many options. In that click on open file and select the arff file
 - Click on edit button which shows weather table on weka.
 # Output
+
+![Screenshot 2024-03-23 220747](https://github.com/prabhasg03/Task-Codes/assets/121883587/6b9f46ef-ead8-418c-b61a-6b224fdf8ba6)
