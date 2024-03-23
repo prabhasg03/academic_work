@@ -1,4 +1,4 @@
-# Task 1(a):
+![Screenshot (59)](https://github.com/prabhasg03/Task-Codes/assets/121883587/43abc8f4-856a-4e3e-970f-ee8cd648a7fe)# Task 1(a):
 List all the categorical (or nominal) attributes and the real-valued attributes separately. 
 # Procedure:-
 <ol>
@@ -11,5 +11,7 @@ List all the categorical (or nominal) attributes and the real-valued attributes 
 
 # Output:-
 ```
+
+![Screenshot (59)](https://github.com/prabhasg03/Task-Codes/assets/121883587/269d94af-af73-4221-a42d-b590af070f06)
 
 ```
