@@ -4,9 +4,8 @@ Another question might be, do you really need to input so many attributes to get
 - Use the Weka GUI Chooser.
 -  Select EXPLORER present in Applications.
 -  Select Preprocess Tab.
--  Go to OPEN file and browse the file that is already stored in the system “bank.csv”. 
-- Select some of the attributes from attributes list which are to be removed. With this step only the 
-attributes necessary for classification are left in the attributes panel. 
+-  Go to OPEN file and browse the file that is already stored in the system "credit-g.arff". 
+- Select some of the attributes from attributes list which are to be removed. With this step only the attributes necessary for classification are left in the attributes panel. 
 - The go to Classify tab. 
 - Choose Classifier “Tree” and Select J48 
 - Select Test options "Use training set",If need select attribute. 
@@ -16,3 +15,6 @@ attributes necessary for classification are left in the attributes panel.
 - Check whether the accuracy increased or decreased?
 - Check whether removing these attributes have any significant effect.
 # Output
+- Classfication Tree with all Attributes
+- 
+![Screenshot 2024-03-23 195355](https://github.com/prabhasg03/Task-Codes/assets/121883587/1e632bf1-0e1c-47ba-8ed8-ce4f6ce35576)
