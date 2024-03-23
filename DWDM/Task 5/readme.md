@@ -1,11 +1,11 @@
 # Task 5(a):
  [Do you think it is a good idea to prefer simple decision trees instead of having long complex 
-decision trees? How does the complexity of a Decision Tree relate to the bias of the model?]()
+decision trees? How does the complexity of a Decision Tree relate to the bias of the model?](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%205/5a)
 # Task 5(b):
 [You can make your Decision Trees simpler by pruning the nodes. One approach is to use 
 Reduced Error Pruning - Explain this idea briefly. Try reduced error pruning for training your Decision Trees 
 using cross-validation (you can do this in Weka) and report the Decision Tree you obtain ? Also, report your 
-accuracy using the pruned model. Does your accuracy increase ?]()
+accuracy using the pruned model. Does your accuracy increase ?](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%205/5b)
 # THEORY: 
 Reduced-error pruning 
 - Each node of the (over-fit) tree is examined for pruning 
