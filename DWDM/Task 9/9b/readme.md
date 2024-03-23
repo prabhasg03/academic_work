@@ -30,3 +30,6 @@ executed one by one.
 - Check whether output is created or not by selecting the preferred path.
 - Rename the data name as weather_normalized.arff
 - Double click on weather_normalized.arff then automatically the output will be opened in MS-Excel.
+# Output
+
+![Screenshot 2024-03-23 221615](https://github.com/prabhasg03/Task-Codes/assets/121883587/6caf8f2f-ce15-4780-9af7-aa4095855c88)
