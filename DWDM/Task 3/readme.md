@@ -23,3 +23,7 @@ on the subsets D1, D3, . . . . . ., Dk and test on the D2 and so on....
 - Set “Folds” Ex:10,If need select attribute. 
 - Now Start weka.
 # Output
+
+![Screenshot 2024-03-23 202255](https://github.com/prabhasg03/Task-Codes/assets/121883587/def55e0c-d53f-47fa-91fe-14d8c5158948)
+
+For Detailed Output: [Visit Output Model file](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining/DWDM/Task%203/output.model)
