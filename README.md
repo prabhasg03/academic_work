@@ -52,10 +52,10 @@ putting the web pages developed in week-1 and week-2 in the document root.
 ```
 [Access the pages by using the urls : 
 http://localhost:4040/rama/books.html (for tomcat)
-http://localhost:8080/books.html (for Apache)](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%207/readme.md)
+http://localhost:8080/books.html (for Apache)](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%207)
 # TASK 8
 - [Assume four users user1,user2, user3 and user4 having the passwords pwd1,pwd2,pwd3 and
-pwd4 respectively. Write a servelet for doing the following:]()
+pwd4 respectively. Write a servelet for doing the following:](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%208)
 ```
  1. Create a Cookie and add these four user id’s and passwords to this Cookie.
 2. Read the user id and passwords entered in the Login form (week1) and authenticate with the values (user id and passwords ) available in the cookies.
@@ -64,7 +64,7 @@ If he is a valid user(i.e., user-name and password match) you should welcome him
 ```
 # TASK 9
 - [Create a JSP application for performing basic arithmetic operations using Java Beans.
-Ex: Use jsp:useBean action tag]()
+Ex: Use jsp:useBean action tag](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%209)
 # TASK 10
 - [Install a database (Mysql or Oracle). Create a table which should contain at least the
 following fields: name, password, email-id, phone number (these should hold the data from
