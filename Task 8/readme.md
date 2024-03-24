@@ -4,6 +4,7 @@
 2. Read the user id and passwords entered in the Login form (week1) and authenticate with the values (user id and passwords ) available in the cookies.<br>
 If he is a valid user(i.e., user-name and password match) you should welcome him by name(user-name) else you should display "You are not an authenticated user".
 Use init-parameters to do this. Store the user-names and passwords in the web.xml and access them in the servlet by using the getInitParameters() method.</p>
+
 # Output 
 After Running the above project file in NetBeans IDE 8.2, Below Video shows what happened
 
