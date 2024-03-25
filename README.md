@@ -68,13 +68,13 @@ Ex: Use jsp:useBean action tag](https://github.com/prabhasg03/Task-Codes/tree/We
 # TASK 10
 - [Install a database (Mysql or Oracle). Create a table which should contain at least the
 following fields: name, password, email-id, phone number (these should hold the data from
-the registration form). Practice 'JDBC' connectivity.]()
+the registration form). Practice 'JDBC' connectivity.](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%2010)
 - [Write a Servlet/JSP to connect to that database and extract data from the tables and display
-them. Experiment with various SQL queries.]()
+them. Experiment with various SQL queries.](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%2010)
 - [Insert the details of the users who register with the web site, whenever a new user clicks the
-submit button in the registration page. (Registration Page)]()
+submit button in the registration page. (Registration Page)](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%2010)
 # TASK 11
 - Write a JSP which does the following job:
- - [Insert the details of the 3 or 4 users who register with the web site (Task 10) by usingregistration form. Authenticate the user when he submits the login form using the username and password from the database (Login Page)]()
+ - [Insert the details of the 3 or 4 users who register with the web site (Task 10) by usingregistration form. Authenticate the user when he submits the login form using the username and password from the database (Login Page)](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%2011)
 # TASK 12
-- [Write a JSP code to display all registered users (TASK 10) in a table with Name, Email and Phone number using JSTL SQL Tags.(Display Page)]()
+- [Write a JSP code to display all registered users (TASK 10) in a table with Name, Email and Phone number using JSTL SQL Tags.(Display Page)](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies/Task%2012)
