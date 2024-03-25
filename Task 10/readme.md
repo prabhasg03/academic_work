@@ -6,6 +6,7 @@ Write a Servlet/JSP to connect to that database and extract data from the tables
 display them.Experiment with various SQL queries.
 Insert the details of the users who register with the web site, whenever a new user 
 clicks thesubmit button in the registration page. (Registration Page)</p>
+
 # Output
 
 https://github.com/prabhasg03/Task-Codes/assets/121883587/a851aec9-42ab-4f60-a45e-10446c95e3d7
