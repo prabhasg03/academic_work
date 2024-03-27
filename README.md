@@ -8,18 +8,18 @@
 # TASK 4
 [Working with files in Hadoop file system: Reading, Writing and Copying]()
 # TASK 5
-Write Pig Latin scripts sort, group, join, project, and filter your data.
+[Write Pig Latin scripts sort, group, join, project, and filter your data.]()
 # TASK 6
-Run the Pig Latin Scripts to find Word Count and max temp for each and every year.
+[Run the Pig Latin Scripts to find Word Count and max temp for each and every year.]()
 # TASK 7
-Writing User Defined Functions/Eval functions for filtering unwanted data in Pig
+[Writing User Defined Functions/Eval functions for filtering unwanted data in Pig]()
 # TASK 8
-Working with Hive QL, Use Hive to create, alter, and drop databases, tables, views, functions and indexes
+[Working with Hive QL, Use Hive to create, alter, and drop databases, tables, views, functions and indexes]()
 # TASK 9
-Writing User Defined Functions in Hive
+[Writing User Defined Functions in Hive]()
 # TASK 10
-Understanding the processing of large dataset on Spark framework.
+[Understanding the processing of large dataset on Spark framework.]()
 # TASK 11
-Ingesting structured and unstructured data using sqoop and flume.
+[Ingesting structured and unstructured data using sqoop and flume.]()
 # TASK 12
-Integrating Hadoop with other data analytic framework like R
+[Integrating Hadoop with other data analytic framework like R]()
