@@ -13,11 +13,13 @@ Azure and many more.
 Start Hadoop Services
 In order to run hdfs dfs or hadoop fs commands, first, you need to start the Hadoop services by
 running the start-dfs.sh script from the Hadoop installation.
+```
 ubuntu@namenode:~$ start-dfs.sh
 Starting namenodes on [namenode.socal.rr.com]
 Starting datanodes
 Starting secondary namenodes [namenode]
 ubuntu@namenode:~$
+```
 ```
 ls – List Files and Folder
 HDFS ls command is used to display the list of Files and Directories in HDFS,
