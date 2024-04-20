@@ -4,7 +4,6 @@ Write Pig Latin scripts sort, group, join, project, and filter your data.
 Create a data the fallowing file first.txt and second.txt<br>
 first.txt-Attributes(user,url,id,)
 ```
-User,url,id
 Srinivas,google,g123
 Srikar,yahoo,y12,
 Sreyas,flipcart,f34
@@ -13,7 +12,6 @@ Syam,myblog,3
 ```
 second.txt-Attributes (url,rating)
 ```
-url,rating
 google,8
 yahoo,7
 flipcart,4
