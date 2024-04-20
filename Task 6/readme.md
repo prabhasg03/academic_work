@@ -401,6 +401,8 @@ DUMP D
 ```
 ## Commands and Outputs
 ```
+![image](https://github.com/prabhasg03/Task-Codes/assets/121883587/d7f3d726-18fa-4dc5-a4a7-832607a8f4b4)
+
 [cloudera@quickstart ~]$ pig
 log4j:WARN No appenders could be found for logger (org.apache.hadoop.util.Shell).
 log4j:WARN Please initialize the log4j system properly.
@@ -818,5 +820,8 @@ java.net.ConnectException: Connection refused
 2024-04-20 01:25:08,656 [main] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 1
 2024-04-20 01:25:08,656 [main] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 1
 (93)
-
+grunt> store ordered_word_count into '/user/cloudera/21241A6625/Task6/OUTPUT1/';
+[cloudera@quickstart ~]$ ^C
+[cloudera@quickstart ~]$ hdfs dfs -cat /user/cloudera/21241A6625/Task6/OUTPUT1/part-r-00000
+93
 ```
