@@ -2,7 +2,7 @@
 Run the Pig Latin Scripts to find Word Count and max temp for each and every year.
 # WordCount
 ## Procedure
-Text File I used:[weather.txt](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%206/weather.txt)
+Text File I used:[weather.txt](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%206/weather.txt)<br>
 Step1:
 1. Create a text file having few lines of text and save it as bd.txt.
 2. Create on directory in hdfs named wc
@@ -393,13 +393,15 @@ grunt> store ordered_word_count into '/user/cloudera/21241A6625/Task6/OUTPUT/';
 ```
 # Max Year
 ## Procedure
-Text File I used:[Weather1.txt](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%206/Weather1.txt)
+Text File I used:[Weather1.txt](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%206/Weather1.txt)<br>
+Enter the Below commands in command prompt:
 ```
-A = LOAD 'user/cloudera/21241A6625/Task6/Weather1.txt' USING PigStorage() AS (year:int,temp:int);
-B = ORDER A BY temp DESC;
-C = LIMIT B 1;
-D = FOREACH C GENERATE Temp;
-DUMP D
+[cloudera@quickstart ~]$ pig
+grunt> A = LOAD 'user/cloudera/21241A6625/Task6/Weather1.txt' USING PigStorage() AS (year:int,temp:int);
+grunt> B = ORDER A BY temp DESC;
+grunt> C = LIMIT B 1;
+grunt> D = FOREACH C GENERATE Temp;
+grunt> DUMP D
 ```
 ## Commands and Outputs
 ```
