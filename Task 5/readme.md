@@ -22,7 +22,7 @@ myblog,3
 ```
 First we have to enter pig in command prompt like below:
 ```
-
+[cloudera@quickstart ~]$ pig
 ```
 create a directory called Task5 in HDFS and place first.txt and second.txt in Task5.
 ### LOAD:
