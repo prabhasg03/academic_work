@@ -2,9 +2,9 @@
 Working with files in Hadoop file system: Reading, Writing and Copying
 # Reading and Writing the file content from local file system to Hadoop file system using appendToFile and cat command:
 ## Procedure
-Create a directory called TASK4 in HDFS<br>
+Create a directory called Task4 in HDFS<br>
 ```
-[cloudera@quickstart ~]$ hadoop fs -mkdir TASK4
+[cloudera@quickstart ~]$ hadoop fs -mkdir Task4
 ```
 Create empty text file called source.txt in local file system and put this file in HDFS
 directory called TASK4
