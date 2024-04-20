@@ -827,7 +827,7 @@ java.net.ConnectException: Connection refused
 2024-04-20 01:25:08,656 [main] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 1
 2024-04-20 01:25:08,656 [main] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 1
 (93)
-grunt> store ordered_word_count into '/user/cloudera/21241A6625/Task6/OUTPUT1/';
+grunt> store D into '/user/cloudera/21241A6625/Task6/OUTPUT1/';
 [cloudera@quickstart ~]$ ^C
 [cloudera@quickstart ~]$ hdfs dfs -cat /user/cloudera/21241A6625/Task6/OUTPUT1/part-r-00000
 93
