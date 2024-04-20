@@ -2,13 +2,14 @@
 Run the Pig Latin Scripts to find Word Count and max temp for each and every year.
 # WordCount
 ## Procedure
+Text File I used:[weather.txt](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%206/weather.txt)
 Step1:
 1. Create a text file having few lines of text and save it as bd.txt.
 2. Create on directory in hdfs named wc
 3. Store bd..txt file from local file system to hdfs file system directory wc
 Step2:
 ```
-inputline = load '/user/cloudera/wc/bd.txt' using PigStorage('\t') as (data:chararray);
+inputline = load '/user/cloudera/21241A6625/Task6/weather.txt' using PigStorage('\t') as (data:chararray);
 words = FOREACH inputline GENERATE FLATTEN(TOKENIZE(data)) AS word;
 filtered_words = FILTER words BY word MATCHES '\\w+';
 word_groups = GROUP filtered_words BY word;
@@ -392,6 +393,7 @@ grunt> store ordered_word_count into '/user/cloudera/21241A6625/Task6/OUTPUT/';
 ```
 # Max Year
 ## Procedure
+Text File I used:[Weather1.txt](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%206/Weather1.txt)
 ```
 A = LOAD 'user/cloudera/21241A6625/Task6/Weather1.txt' USING PigStorage() AS (year:int,temp:int);
 B = ORDER A BY temp DESC;
