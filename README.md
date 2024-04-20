@@ -6,11 +6,11 @@
 # TASK 3
 [Implement matrix multiplication with Hadoop Map Reduce.]()
 # TASK 4
-[Working with files in Hadoop file system: Reading, Writing and Copying]()
+[Working with files in Hadoop file system: Reading, Writing and Copying](https://github.com/prabhasg03/Task-Codes/blob/Big-Data-Analytics-Lab/Task%204/)
 # TASK 5
-[Write Pig Latin scripts sort, group, join, project, and filter your data.]()
+[Write Pig Latin scripts sort, group, join, project, and filter your data.](https://github.com/prabhasg03/Task-Codes/blob/Big-Data-Analytics-Lab/Task%205/)
 # TASK 6
-[Run the Pig Latin Scripts to find Word Count and max temp for each and every year.]()
+[Run the Pig Latin Scripts to find Word Count and max temp for each and every year.](https://github.com/prabhasg03/Task-Codes/blob/Big-Data-Analytics-Lab/Task%206/)
 # TASK 7
 [Writing User Defined Functions/Eval functions for filtering unwanted data in Pig]()
 # TASK 8
