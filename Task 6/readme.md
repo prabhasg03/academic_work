@@ -382,6 +382,7 @@ java.net.ConnectException: Connection refused
 (2,job)
 (1,hdfs)
 (1,date)
+grunt> store ordered_word_count into '/user/cloudera/21241A6625/Task6/OUTPUT/';
 [cloudera@quickstart ~]$ ^C
 [cloudera@quickstart ~]$ hdfs dfs -cat /user/cloudera/21241A6625/Task6/OUTPUT/part-r-00000
 3	car
