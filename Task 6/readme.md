@@ -7,6 +7,7 @@ Step1:
 2. Create on directory in hdfs named wc
 3. Store bd..txt file from local file system to hdfs file system directory wc
 Step2:
+```
 inputline = load '/user/cloudera/wc/bd.txt' using PigStorage('\t') as (data:chararray);
 words = FOREACH inputline GENERATE FLATTEN(TOKENIZE(data)) AS word;
 filtered_words = FILTER words BY word MATCHES '\\w+';
@@ -17,6 +18,7 @@ ordered_word_count = ORDER word_count BY count DESC;
 DUMP ordered_word_count;
 You can use the below command to save the result in HDFS.
 grunt> store ordered_word_count; into '/user/cloudera/wc/output/';
+```
 ## Commands and Outputs
 ![image](https://github.com/prabhasg03/Task-Codes/assets/121883587/59e988ef-2231-42b5-a45e-5f382cfc1055)
 ```
@@ -383,9 +385,14 @@ java.net.ConnectException: Connection refused
 ```
 # Max Year
 ## Procedure
+```
 A = LOAD 'input' USING PigStorage() AS (Year:int,Temp:int);
 B = ORDER A BY Temp DESC;
 C = LIMIT B 1;
 D = FOREACH C GENERATE Temp;
 DUMP D
+```
 ## Commands and Outputs
+```
+
+```
