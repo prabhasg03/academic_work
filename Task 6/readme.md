@@ -382,6 +382,12 @@ java.net.ConnectException: Connection refused
 (2,job)
 (1,hdfs)
 (1,date)
+[cloudera@quickstart ~]$ ^C
+[cloudera@quickstart ~]$ hdfs dfs -cat /user/cloudera/21241A6625/Task6/OUTPUT/part-r-00000
+3	car
+2	job
+1	hdfs
+1	date
 ```
 # Max Year
 ## Procedure
