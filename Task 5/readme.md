@@ -26,8 +26,8 @@ create a directory called Task5 in HDFS and place first.txt and second.txt in Ta
 ### LOAD:
 LOAD operator is used to load data from the file system or HDFS storage into a Pig relation.
 ```
-grunt>loading1 = load ‘/user/cloudera/21241A6625/Task5/first.txt’ using PigStorage(‘,’) as (user:chararray,url:chararray,id:int);
-grunt>loading2 = load ‘/user/cloudera/21241A6625/Task5/second.txt’ using PigStorage(‘,’) as (user:chararray,url:chararray,id:int);
+grunt>loading1 = load '/user/cloudera/21241A6625/Task5/first.txt' using PigStorage(',') as (user:chararray,url:chararray,id:int);
+grunt>loading2 = load '/user/cloudera/21241A6625/Task5/second.txt' using PigStorage(',') as (user:chararray,url:chararray,id:int);
 ```
 ### FOREACH:
 This operator generates data transformations based on columns of data. It is used to add or remove fields from a relation. Use FOREACH-GENERATE operation to work
