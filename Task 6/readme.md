@@ -22,7 +22,7 @@ grunt> store ordered_word_count; into '/user/cloudera/wc/output/';
 ```
 ## Commands and Outputs
 
-![image](https://github.com/prabhasg03/Task-Codes/assets/121883587/558201e5-395b-41c7-aa4f-fd0dc0461f26)
+![Screenshot (12)](https://github.com/prabhasg03/Task-Codes/assets/121883587/37959b36-aecb-4853-8a36-eab945a29224)
 
 
 ```
