@@ -393,7 +393,7 @@ grunt> store ordered_word_count into '/user/cloudera/21241A6625/Task6/OUTPUT/';
 # Max Year
 ## Procedure
 ```
-A = LOAD 'user/cloudera/wc/weather.txt' USING PigStorage() AS (year:int,temp:int);
+A = LOAD 'user/cloudera/21241A6625/Task6/Weather1.txt' USING PigStorage() AS (year:int,temp:int);
 B = ORDER A BY temp DESC;
 C = LIMIT B 1;
 D = FOREACH C GENERATE Temp;
@@ -430,13 +430,9 @@ log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more in
 2024-04-20 01:22:52,788 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
 2024-04-20 01:22:52,862 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - fs.default.name is deprecated. Instead, use fs.defaultFS
 2024-04-20 01:22:52,863 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
-grunt> A = LOAD '/user/cloudera/21241A6625/Task6/Weather.txt' USING PigStorage() AS (Temp:int);
+grunt> A = LOAD '/user/cloudera/21241A6625/Task6/Weather1.txt' USING PigStorage() AS (Temp:int);
 grunt> B = ORDER A BY Temp DESC;
 grunt> C = LIMIT B 1;
-grunt> C = LIMIT B 1;
-grunt> DUMP D;
-2024-04-20 01:23:05,122 [main] ERROR org.apache.pig.tools.grunt.Grunt - ERROR 1003: Unable to find an operator for alias D
-Details at logfile: /home/cloudera/pig_1713601370371.log
 grunt> D = FOREACH C GENERATE Temp;
 grunt> DUMP D;
 2024-04-20 01:23:17,940 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig features used in the script: ORDER_BY,LIMIT
