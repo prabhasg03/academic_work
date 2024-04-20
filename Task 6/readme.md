@@ -386,8 +386,8 @@ java.net.ConnectException: Connection refused
 # Max Year
 ## Procedure
 ```
-A = LOAD 'input' USING PigStorage() AS (Year:int,Temp:int);
-B = ORDER A BY Temp DESC;
+A = LOAD 'user/cloudera/wc/weather.txt' USING PigStorage() AS (year:int,temp:int);
+B = ORDER A BY temp DESC;
 C = LIMIT B 1;
 D = FOREACH C GENERATE Temp;
 DUMP D
