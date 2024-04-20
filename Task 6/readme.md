@@ -21,7 +21,9 @@ You can use the below command to save the result in HDFS.
 grunt> store ordered_word_count; into '/user/cloudera/wc/output/';
 ```
 ## Commands and Outputs
+
 ![image](https://github.com/prabhasg03/Task-Codes/assets/121883587/59e988ef-2231-42b5-a45e-5f382cfc1055)
+
 ```
 grunt> inputline = load '/user/cloudera/21241A6625/Task6/weather.txt' using PigStorage('\t') as (date:chararray);
 grunt> DUMP inputline
