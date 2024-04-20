@@ -407,9 +407,9 @@ grunt> D = FOREACH C GENERATE Temp;
 grunt> DUMP D
 ```
 ## Commands and Outputs
-```
-![image](https://github.com/prabhasg03/Task-Codes/assets/121883587/d7f3d726-18fa-4dc5-a4a7-832607a8f4b4)
+![image](https://github.com/prabhasg03/Task-Codes/assets/121883587/d4a26fd0-16fc-4902-b4ca-8f45497182f5)
 
+```
 [cloudera@quickstart ~]$ pig
 log4j:WARN No appenders could be found for logger (org.apache.hadoop.util.Shell).
 log4j:WARN Please initialize the log4j system properly.
