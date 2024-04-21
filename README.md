@@ -27,13 +27,13 @@ Note: Implement the following Machine Learning Tasks using Python /R-Tool
 # Task 5
  - [Implement Simple and Multiple Linear Regression Models.]()
 # Task 6
- - [Develop Logistic Regression Model for a given dataset.]()
+ - [Develop Logistic Regression Model for a given dataset.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%206/Task%206.ipynb)
 # Task 7
- - [Develop Decision Tree Classification model for a given dataset and use it to classify a new sample.]()
+ - [Develop Decision Tree Classification model for a given dataset and use it to classify a new sample.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%207/Task%207.ipynb)
 # Task 8
- - [Implement Naïve Bayes Classification in Python]()
+ - [Implement Naïve Bayes Classification in Python](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%208/Task%208.ipynb)
 # TASK 9
- - [Build KNN Classification model for a given dataset.]()
+ - [Build KNN Classification model for a given dataset.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%209/Task%209.ipynb)
 # TASK 10 
  - [Build Artificial Neural Network model with back propagation on a given dataset.]()
 # TASK 11
