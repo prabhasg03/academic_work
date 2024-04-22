@@ -4,19 +4,19 @@ Write Pig Latin scripts sort, group, join, project, and filter your data.
 Create a data the fallowing file first.txt and second.txt<br>
 first.txt-Attributes(user,url,id,)
 ```
-Srinivas  google  123
-Srikar  yahoo  12
-Sreyas  flipcart  34
-Lohitha  linkedin  l46
-Syam  myblog  3
+Srinivas,google,123
+Srikar,yahoo,12
+Sreyas,flipcart,34
+Lohitha,linkedin,l46
+Syam,myblog,3
 ```
 second.txt-Attributes (url,rating)
 ```
-google  8
-yahoo  7
-flipcart  4
-linkedin  5
-myblog  3
+google,8
+yahoo,7
+flipcart,4
+linkedin,5
+myblog,3
 ```
 First we have to enter pig in command prompt like below:
 ```
