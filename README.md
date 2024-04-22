@@ -12,7 +12,7 @@
 # TASK 6
 [Run the Pig Latin Scripts to find Word Count and max temp for each and every year.](https://github.com/prabhasg03/Task-Codes/blob/Big-Data-Analytics-Lab/Task%206/)
 # TASK 7
-[Writing User Defined Functions/Eval functions for filtering unwanted data in Pig]()
+[Writing User Defined Functions/Eval functions for filtering unwanted data in Pig](https://github.com/prabhasg03/Task-Codes/tree/Big-Data-Analytics-Lab/Task%207)
 # TASK 8
 [Working with Hive QL, Use Hive to create, alter, and drop databases, tables, views, functions and indexes]()
 # TASK 9
