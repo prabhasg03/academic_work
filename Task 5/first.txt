@@ -1,0 +1,5 @@
+Srinivas,google,123
+Srikar,yahoo,12
+Sreyas,flipcart,34
+Lohitha,linkedin,l46
+Syam,myblog,3
