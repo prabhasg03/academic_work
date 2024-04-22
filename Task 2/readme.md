@@ -14,14 +14,14 @@ File -> New -> Java Project
 - Create Weatherforecasting class in below way:
 - Open File->New->class in src folder
 - Enter source and className as Weather
-- Enter the source code as in the file: [weather.java](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%202/weather.java)
+- Enter the source code as in the file: [Task2.java](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%202/Task2.java)
 ### Step-4 
 - Open File->Export->JAVA->JAR File and click on next
 - Browse the JAR file,click on finish
 - To browse the file, save with [weather.jar](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%202/weather.jar)
 - Enter commands in command prompt as in Output Section as per file paths
 ### Dataset I Used:
-[weather.txt](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%202/weather.txt)
+[weather data set.txt](https://github.com/prabhasg03/Task-Codes/blob/Big-Data-Analytics-Lab/Task%202/weather%20data%20set.txt)
 # Output
 ![image](https://github.com/prabhasg03/Task-Codes/assets/121883587/a9b0ea03-6d61-475f-ae61-ef64ff9ff854)
 
