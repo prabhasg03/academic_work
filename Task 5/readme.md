@@ -2,7 +2,7 @@
 Write Pig Latin scripts sort, group, join, project, and filter your data.
 # Procedure
 Create a data the fallowing file first.txt and second.txt<br>
-first.txt-Attributes(user,url,id,)
+[first.txt](https://github.com/prabhasg03/Task-Codes/blob/Big-Data-Analytics-Lab/Task%205/first.txt)-Attributes(user,url,id,)
 ```
 Srinivas,google,123
 Srikar,yahoo,12
@@ -10,7 +10,7 @@ Sreyas,flipcart,34
 Lohitha,linkedin,l46
 Syam,myblog,3
 ```
-second.txt-Attributes (url,rating)
+[second.txt](https://github.com/prabhasg03/Task-Codes/blob/Big-Data-Analytics-Lab/Task%205/second.txt)-Attributes (url,rating)
 ```
 google,8
 yahoo,7
