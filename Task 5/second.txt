@@ -1,0 +1,5 @@
+google,8
+yahoo,7
+flipcart,4
+linkedin,5
+myblog,3
