@@ -2,7 +2,7 @@
 Write a Map Reduce program that mines weather data
 # Procedure
 ### Step-1
-Open Cloudera on VMWare and click on eclipse app and create a new Project in the eclipse on clicking below hierarchy:
+Open Cloudera on VMWare and click on eclipse app and create a new Project in the eclipse on clicking below hierarchy:<br>
 File -> New -> Java Project
 ### Step-2
 - Give Project a name "weather"
@@ -20,8 +20,11 @@ File -> New -> Java Project
 - Browse the JAR file,click on finish
 - To browse the file, save with [weather.jar](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%202/weather.jar)
 - Enter commands in command prompt as in Output Section as per file paths
+### Dataset I Used:
+[weather.txt](https://github.com/prabhasg03/Task-Codes/edit/Big-Data-Analytics-Lab/Task%202/weather.txt)
 # Output
-![Uploading image.png…]()
+![image](https://github.com/prabhasg03/Task-Codes/assets/121883587/a9b0ea03-6d61-475f-ae61-ef64ff9ff854)
+
 
 ```
 [cloudera@quickstart ~]$ hdfs dfs -put /home/cloudera/weather.txt /user/cloudera/21241A6625/Task2/
