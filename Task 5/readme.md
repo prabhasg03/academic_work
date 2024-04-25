@@ -35,7 +35,7 @@ This operator generates data transformations based on columns of data. It is use
 with columns of data.<br>
 Commands:
 ```
-grunt> for_each = FORECAH loading1 generate url,id;
+grunt> for_each = FOREACH loading1 generate url,id;
 grunt> DUMP for_each;
 ```
 ### FILTER:
