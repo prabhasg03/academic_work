@@ -9,10 +9,10 @@ Implement Matrix Multiplication with Hadoop Map Reduce
   - [MatrixMultiply.java](https://github.com/prabhasg03/academic_work/blob/Big-Data-Analytics-Lab/Task%203/MatrixMultiply.java)
 - Create a jar file for the MatrixMul project
 - Enter below commands in command prompt:
-  ``
+```
 -  hdfs dfs -mkdir matrix
 -  hdfs dfs -put /home/cloudera/inp.txt /user/cloudera/matrix
 -  hdfs jar /home/cloudera/MatrixMulitply.jar MatrixMultiply Matrix/inp.txt /res
 -  hdfs dfs -ls /res/
 -  hdfs dfs -cat /res/PART-r-00000
-  ``
+```
