@@ -81,5 +81,4 @@ schema = "`date` STRING, 'delay' INT, `distance' INT, `origin' STRING, 'destinat
 FROM us_delay_flights_tbl WHERE distance> 1000 ORDER BY distance DESC""").show(10) 
 ## PART VI 
 file = """""/databricks-datasets/learning-spark-v2/flights/summary-data/parquet/2010-summary.parquet/""'" df = spark.read.format("parquet").load(file) 
-PART VII 
 df.show() 
