@@ -21,18 +21,17 @@ reduce = reduce
 library(Rhipe)
 
 rhint(TRUE, TRUE);
-map &lt; -expression({lapply(map.values, function(mapper)...)})
-reduce &lt; -expression(
+map < -expression({lapply(map.values, function(mapper)...)})
+reduce < -expression(
 pre={...},
 reduce={...},
-
 post={...}, }
-x &lt; - rhmr(
+x < - rhmr(
 map=map, reduce=reduce,
 ifolder=inputPath,
 ofolder=outputPath,
-inout=c(&#39;text&#39;, &#39;text&#39;),
-jobname=&#39;a job name&#39;))
+inout=c('text', 'text'),
+jobname='a job name'))
 rhex(z)
 ```
 - Enter below commands:
