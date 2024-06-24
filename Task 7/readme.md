@@ -13,7 +13,7 @@ DUMP INPUT_RECORDS
 ### Step 2: Filter the record as per the requirement
 <br>Use below command:
 ```
-INTERMD_RECORDS = FILTER INPUT_RECORDS BY (contype=='POSTP'; OR contype=='PREP' OR contype IS NULL OR contype=='');
+INTERMD_RECORDS = FILTER INPUT_RECORDS BY (contype=='POSTP' OR contype=='PREP' OR contype IS NULL OR contype=='');
 ```
 <p>Here, only those records will come which are having connection type in "POSTP","PREP"and blank. Blank in a string can be meant to either null or empty string, so contype="" is also
 written.</p>
