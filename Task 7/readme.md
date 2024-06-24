@@ -24,7 +24,7 @@ DUMP INTERMD_RECORDS
 ```
 ### Step 3: Output
 ```
-OUTPUT_RECORDS = FOREACH INTERMD_RECORDS GENERATE id,((contype ISNULL OR contype=='';)?'NA':contype) AS contype;
+OUTPUT_RECORDS = FOREACH INTERMD_RECORDS GENERATE id,((contype ISNULL OR contype=='')?'NA':contype) AS contype;
 ```
 Here, we have assigned “NA” value to blank contype.
 Let’s visualize it using below command:
