@@ -4,7 +4,7 @@ Ingesting Structured and Unstructured data using sqoop and flame
 - Open VM Workstation or linux os and then open command prompt and enter below commands:
 - For logging
 ```
-mysql -u -root -pcloudera;
+mysql -u -root -p cloudera;
 ```
 - For creating a database and table and insert data
 ```
