@@ -6,11 +6,11 @@ Integrating Hadoop with other data analytic framework like R
 - 1.r
 ```
 library(rmr)
-map&lt;-function(k,v){...}
-reduce&lt;-function(k,vv){...}
+map<-function(k,v){...}
+reduce<-function(k,vv){...}
 mapreduce(
-input = &quot;data.txt&quot;,
-output =&quot;output&quot;,
+input = "data.txt",
+output ="output",
 textinputformat = rawtextinputformat,
 map = map,
 reduce = reduce
