@@ -35,9 +35,9 @@ Note: Implement the following Machine Learning Tasks using Python /R-Tool
 # TASK 9
  - [Build KNN Classification model for a given dataset.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%209/Task%209.ipynb)
 # TASK 10 
- - [Build Artificial Neural Network model with back propagation on a given dataset.]()
+ - [Build Artificial Neural Network model with back propagation on a given dataset.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%2010/Task%2010.ipynb)
 # TASK 11
- - [Implement Random forest ensemble method on a given dataset.]()
- - [Implement Boosting ensemble method on a given dataset.]()
+ - [Implement Random forest ensemble method on a given dataset.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%2011/Task%2011a.ipynb)
+ - [Implement Boosting ensemble method on a given dataset.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%2011/Task%2011b.ipynb)
 # TASK 12
- - [Write a python program to implement K-Means clustering Algorithm.]()
+ - [Write a python program to implement K-Means clustering Algorithm.](https://github.com/prabhasg03/Task-Codes/blob/Machine-Learning-Lab/Task%2012/Task%2012.ipynb)
