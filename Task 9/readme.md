@@ -42,16 +42,23 @@ ADD JAR /home/cloudera/Desktop/udf_example.jar;
 Create temporary function standardize as ‘udf_example.DataStandardization’;
 
 Calling this UDF on a column in a table.
+```
 select standardize(name) from sample_table;
+```
 Issue: this jar &amp; function is valid only for current session, if you comeout of the hive and go back
 in , then you won’t be able to call this function).
 
 To create a permanent function , we need to have our jar in hdfs.
 So, now transfer the jar to HDFS from local
+```
 hadoop fs -put udf_example.jar /user/cloudera/
+```
 For creating a permanent function in hive :
+```
 CREATE FUNCTION standardize_permanent AS ‘udf_example.DataStandardization’ using JAR
 ‘hdfs://localhost:8020/user/cloudera/udf_example.jar’;
-Calling the function
+```
+Calling the function:
+```
 select standardize_permanent(name) from sample_table;
-
+```
