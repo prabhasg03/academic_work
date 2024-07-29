@@ -31,7 +31,7 @@ hive>SHOW databases;
 hive>CREATE DATABASE database_name;
 hive>USE sales(database name);
 hive>create table if not exists sample_table(name string, count int)row format delimited fields
-terminated by ',' lines terminated by ‘\n’ stored as textfile;
+terminated by ',' lines terminated by '\n' stored as textfile;
 load data local inpath '/home/cloudera/Downloads/sample_data.txt'
 overwrite into table sample_table;
 ```
