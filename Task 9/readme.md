@@ -8,7 +8,7 @@ Package name: udf_example
 Class name: DataStandardization
 Program:
 ```
-package udf_example
+package udf_example;
 import org.apache.hadoop.hive.ql.exec.UDF;
 public class DataStandardization extends UDF
 {
