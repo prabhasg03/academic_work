@@ -38,9 +38,10 @@ overwrite into table sample_table;
 Export the jar file for the java project
 Right click project --&gt; export --&gt; jar file. (jar file will be created)
 Add the jar and create temporary function
+```
 ADD JAR /home/cloudera/Desktop/udf_example.jar;
 Create temporary function standardize as ‘udf_example.DataStandardization’;
-
+```
 Calling this UDF on a column in a table.
 ```
 select standardize(name) from sample_table;
