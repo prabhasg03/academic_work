@@ -1,7 +1,8 @@
-# Task 9
+## Task 9
 Writing user defined functions in Hive
 # Procedure
 Step1:- open eclipse and create a new java project (udf_example).
+Add External JARs from usr/lib/hive/lib/
 Inside that create a new class.
 Package name: udf_example
 Class name: DataStandardization
@@ -53,3 +54,4 @@ CREATE FUNCTION standardize_permanent AS ‘udf_example.DataStandardization’ u
 ‘hdfs://localhost:8020/user/cloudera/udf_example.jar’;
 Calling the function
 select standardize_permanent(name) from sample_table;
+
