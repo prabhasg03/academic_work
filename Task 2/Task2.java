@@ -41,7 +41,7 @@ public class MyMaxMin {
 			float temp_Min = Float.parseFloat(line.substring(47, 53).trim());  //minimum temperature
 			//if maximum temperature is greater than 35 , its a hot day
 		if (temp_Max > 35.0) {	
-			ontext.write(new Text("Hot Day " + date),new Text(String.valueOf(temp_Max))); 	// Hot day
+			context.write(new Text("Hot Day " + date),new Text(String.valueOf(temp_Max))); 	// Hot day
             				}
 				//if minimum temperature is less than 10 , its a cold day		
 		if (temp_Min < 10) {		
