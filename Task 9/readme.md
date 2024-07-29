@@ -56,7 +56,7 @@ hadoop fs -put udf_example.jar /user/cloudera/
 For creating a permanent function in hive :
 ```
 CREATE FUNCTION standardize_permanent AS ‘udf_example.DataStandardization’ using JAR
-‘hdfs://localhost:8020/user/cloudera/udf_example.jar’;
+‘user/cloudera/udf_example.jar’;
 ```
 Calling the function:
 ```
