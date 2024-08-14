@@ -15,8 +15,8 @@ Course Outcomes:
 # TASK 1:
 Write a Java program to perform encryption and decryption using the following algorithms.
 - a. [Ceaser cipher]()
-- b. [Substitution cipher]
-- c. [Hill Cipher]
+- b. [Substitution cipher]()
+- c. [Hill Cipher]()
 # TASK 2:
 [Write a C/ JAVA program to implement the DES algorithm.]()
 # TASK 3:
