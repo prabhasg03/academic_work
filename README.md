@@ -18,7 +18,10 @@ in Computer Science and Engineering(AIML).The work is divided into branches. Ple
 - [Data Warehousing and Data Mining](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining)
 - [Web Technologies](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies)
 - [R-Programming](https://github.com/prabhasg03/Task-Codes/tree/R-Programming)
-# Sixth Semester(3rd Year - 2nd Semester)(Now)
+# Sixth Semester(3rd Year - 2nd Semester)
 - [Big Data Analytics Lab](https://github.com/prabhasg03/Task-Codes/tree/Big-Data-Analytics-Lab)
 - [Machine Learning Lab](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab)
 - [Mini-Project](https://github.com/prabhasg03/Task-Codes/tree/Mini-Project)
+# Seventh Semester(4th Year - 1st Semester)(Now):
+- [Cryptography and Network Security Lab](https://github.com/prabhasg03/academic_work/tree/Cryptography-and-Network-Security-Lab)
+- [Deep Learning Lab](https://github.com/prabhasg03/academic_work/tree/Deep-Learning-Lab)
