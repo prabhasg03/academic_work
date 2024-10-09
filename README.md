@@ -14,15 +14,15 @@ Course Outcomes:
 ```
 # TASK 1:
 Write a Java program to perform encryption and decryption using the following algorithms.
-- a. [Ceaser cipher]()
-- b. [Substitution cipher]()
-- c. [Hill Cipher]()
+- [Ceaser cipher](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%201/1a/CaesarCipher.java)
+- [Substitution cipher](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%201/1b/SubstitutionCipher.java)
+- [Hill Cipher](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%201/1c/HillCipher.java)
 # TASK 2:
-[Write a C/ JAVA program to implement the DES algorithm.]()
+[Write a C/ JAVA program to implement the DES algorithm.](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%202/DES1.java)
 # TASK 3:
-[Write a C/JAVA program to implement the Blowfish algorithm.]()
+[Write a C/JAVA program to implement the Blowfish algorithm.](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%203/BlowFish.java)
 # TASK 4:
-[Write a C/JAVA program to implement the AES algorithm .]()
+[Write a C/JAVA program to implement the AES algorithm .](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%204/AES.java)
 # TASK 5:
 [Write the RC4 logic in Java.]()
 # TASK 6:
