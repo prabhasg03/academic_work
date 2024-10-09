@@ -1,3 +1,7 @@
+/*
+Task 3: Write a C/JAVA Program to implement the Blowfish algorithm logic
+Aim:To write a Program to implement Blowfish algorithm logic.
+*/
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.security.Key;
