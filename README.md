@@ -16,11 +16,11 @@ performance of various optimization techniques.
 # TASK 1
 [Implement Perceptron training algorithm to classify flowers in IRIS dataset.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%201/Task%201.ipynb)
 # TASK 2
-[Implement Activation Functions in Neural Networks and analyse their usage.]()
+[Implement Activation Functions in Neural Networks and analyse their usage.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%202/Task%202.ipynb)
 # TASK 3
-[Build a three-layer Artificial Neural Network by implementing the Back propagation algorithm.]()
+[Build a three-layer Artificial Neural Network by implementing the Back propagation algorithm.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%203/Task%203.ipynb)
 # TASK 4
-[Design a GRU-based deep learning model for IMDB dataset. Compare the performance of GRU based model with LSTM based model]()
+[Design a GRU-based deep learning model for IMDB dataset. Compare the performance of GRU based model with LSTM based model](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%204/Task%204.ipynb)
 # TASK 5
 [Build a Deep Neural Network for multi class text classification using Reuters dataset]()
 # TASK 6
