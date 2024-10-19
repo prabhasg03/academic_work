@@ -22,11 +22,11 @@ performance of various optimization techniques.
 # TASK 4
 [Design a GRU-based deep learning model for IMDB dataset. Compare the performance of GRU based model with LSTM based model](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%204/Task%204.ipynb)
 # TASK 5
-[Build a Deep Neural Network for multi class text classification using Reuters dataset]()
+[Build a Deep Neural Network for multi class text classification using Reuters dataset](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%205/Task%205.ipynb)
 # TASK 6
-[Design a model for MNIST hand written digit classification using Deep Convolution Neural networks.]()
+[Design a model for MNIST hand written digit classification using Deep Convolution Neural networks.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%206/Task%206.ipynb)
 # TASK 7
-[Train a simple Recurrent Neural Network using an Embedding layer and a Simple RNN layer for movie review classification problem.]()
+[Train a simple Recurrent Neural Network using an Embedding layer and a Simple RNN layer for movie review classification problem.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%207/Task%207.ipynb)
 # TASK 8
 [Build a Deep learning model using LSTM layer in Keras for IMDB dataset.]()
 # TASK 9
