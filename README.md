@@ -24,15 +24,15 @@ Write a Java program to perform encryption and decryption using the following al
 # TASK 4:
 [Write a C/JAVA program to implement the AES algorithm .](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%204/AES.java)
 # TASK 5:
-[Write the RC4 logic in Java.]()
+[Write the RC4 logic in Java.](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%205/RC4.java)
 # TASK 6:
-[Implement DES-2 and DES-3 using Java cryptography package.]()
+[Implement DES-2 and DES-3 using Java cryptography package.](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%206/DES2.java)
 # TASK 7:
-[Write a Java program to implement RSA algorithm.]()
+[Write a Java program to implement RSA algorithm.](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%207/RSA.java)
 # TASK 8:
-[Implement the Diffie-Hellman Key Exchange mechanism]()
+[Implement the Diffie-Hellman Key Exchange mechanism](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%208/DiffieHellmanExchange.java)
 # TASK 9:
-[Calculate the message digest of a text using the SHA-1 algorithm in JAVA.]()
+[Calculate the message digest of a text using the SHA-1 algorithm in JAVA.](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%209/MD51.java)
 # TASK 10:
 [Calculate the message digest of a text using the MD5 algorithm in JAVA.]()
 # TASK 11:
