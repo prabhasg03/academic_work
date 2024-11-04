@@ -30,7 +30,7 @@ performance of various optimization techniques.
 # TASK 8
 [Build a Deep learning model using LSTM layer in Keras for IMDB dataset.]()
 # TASK 9
-[Design a Neural network with various optimization algorithms and analyse their performance using Keras.]()
+[Design a Neural network with various optimization algorithms and analyse their performance using Keras.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%209/Task%209.ipynb)
 # TASK 10
 [Design a Deep Learning Model to classify the movie reviews as Positive or Negative based on the text content of reviews using IMDB dataset.]()
 # TASK 11
