@@ -32,7 +32,7 @@ performance of various optimization techniques.
 # TASK 9
 [Design a Neural network with various optimization algorithms and analyse their performance using Keras.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%209/Task%209.ipynb)
 # TASK 10
-[Design a Deep Learning Model to classify the movie reviews as Positive or Negative based on the text content of reviews using IMDB dataset.]()
+[Design a Deep Learning Model to classify the movie reviews as Positive or Negative based on the text content of reviews using IMDB dataset.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%2010/Task%2010.ipynb)
 # TASK 11
 [Apply One Hot Encoding for categorical sequence data.]()
 # TASK 12
