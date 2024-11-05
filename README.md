@@ -28,7 +28,7 @@ performance of various optimization techniques.
 # TASK 7
 [Train a simple Recurrent Neural Network using an Embedding layer and a Simple RNN layer for movie review classification problem.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%207/Task%207.ipynb)
 # TASK 8
-[Build a Deep learning model using LSTM layer in Keras for IMDB dataset.]()
+[Build a Deep learning model using LSTM layer in Keras for IMDB dataset.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%208/Task%208.ipynb)
 # TASK 9
 [Design a Neural network with various optimization algorithms and analyse their performance using Keras.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%209/Task%209.ipynb)
 # TASK 10
