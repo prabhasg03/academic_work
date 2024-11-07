@@ -1,7 +1,7 @@
 ## TASK 11
 Explore the java classes related to Digital Certificates.<br>
 **Aim:** <br>
-To explore the Java classes related to Digital Certificates. The use and verification of digital signatures is another standard engine that is included in the security provider architecture. Like the other engines we've examined, the classes that implement this engine have both a public interface and an SPI for implementors of the engine.<br>
+To explore the Java classes related to Digital Certificates.<br>The use and verification of digital signatures is another standard engine that is included in the security provider architecture. Like the other engines we've examined, the classes that implement this engine have both a public interface and an SPI for implementors of the engine.<br>
 In the JDK, the most common use of digital signatures is to create signed classes; users have the option of granting additional privileges to these signed classes using the mechanics of the access controller. In addition, a security manager and a class loader can use this information to change the policy of the security manager.<br>
 **The Signature Class**<br>
 Operations on digital signatures are abstracted by the *Signature* class<br>
