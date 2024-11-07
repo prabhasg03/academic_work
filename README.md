@@ -32,10 +32,10 @@ Write a Java program to perform encryption and decryption using the following al
 # TASK 8:
 [Implement the Diffie-Hellman Key Exchange mechanism](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%208/DiffieHellmanExchange.java)
 # TASK 9:
-[Calculate the message digest of a text using the SHA-1 algorithm in JAVA.](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%209/MD51.java)
+[Calculate the message digest of a text using the SHA-1 algorithm in JAVA.](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%209/SHA.java)
 # TASK 10:
-[Calculate the message digest of a text using the MD5 algorithm in JAVA.]()
+[Calculate the message digest of a text using the MD5 algorithm in JAVA.](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%2010/MD51.java)
 # TASK 11:
-[Explore the Java classes related to digital certificates.]()
+[Explore the Java classes related to digital certificates.](https://github.com/prabhasg03/academic_work/tree/Cryptography-and-Network-Security-Lab/Task%2011)
 # TASK 12:
-[Write a program in java, which performs a digital signature on a given text.]()
+[Write a program in java, which performs a digital signature on a given text.](https://github.com/prabhasg03/academic_work/blob/Cryptography-and-Network-Security-Lab/Task%2012/Digital.java)
