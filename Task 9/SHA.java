@@ -53,7 +53,8 @@ return buf.toString();
 }
 /*
 Output:
-E:\Study\4-1\CNS Lab\Task 9>java SHA
+javac SHA.java
+java SHA
 Message digest object info:
  Algorithm=SHA1
  Provider=SUN version 22
