@@ -34,6 +34,6 @@ performance of various optimization techniques.
 # TASK 10
 [Design a Deep Learning Model to classify the movie reviews as Positive or Negative based on the text content of reviews using IMDB dataset.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%2010/Task%2010.ipynb)
 # TASK 11
-[Apply One Hot Encoding for categorical sequence data.]()
+[Apply One Hot Encoding for categorical sequence data.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%2011/Task%2011.ipynb)
 # TASK 12
-[Design a Deep Learning framework for Object Detection.]()
+[Design a Deep Learning framework for Object Detection.](https://github.com/prabhasg03/academic_work/blob/Deep-Learning-Lab/Task%2012/Task%2012.ipynb)
