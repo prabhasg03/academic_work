@@ -1,24 +1,7 @@
-```
-This repository contains the academic work I completed during my Bachelor of Technology degree
-in Computer Science and Engineering(AIML).The work is divided into branches. Please check them below:
-```
-# First Semester(1st Year - 1st Semester)
-- [Programming for Problem Solving using C(PPS)](https://github.com/prabhasg03/Task-Codes/tree/C-language)
-# Second Semester(1st Year - 2nd Semester)
-- [Data Structures using C (DS)](https://github.com/prabhasg03/Task-Codes/tree/DS-using-C)
-# Third Semester(2nd Year - 1st Semester)
-- [Java Programming(JP)](https://github.com/prabhasg03/Task-Codes/tree/Java)
-- [Scripting Language Lab(SLL)](https://github.com/prabhasg03/Task-Codes/tree/SLL(Scripting-Language-Lab))
-- [Database Management Systems(DBMS)](https://github.com/prabhasg03/Task-Codes/tree/DBMS)
-# Fourth Semester(2nd Year - 2nd Semester)
-- [Python Programming(PP)](https://github.com/prabhasg03/Task-Codes/tree/Python)
-- [Operating System(OS)](https://github.com/prabhasg03/Task-Codes/tree/OS(Operating-System))
-- [Visual Programming using C# and .NET Lab](https://github.com/prabhasg03/Task-Codes/tree/VP-Lab)
-# Fifth Semester(3rd Year - 1st Semester)
-- [Data Warehousing and Data Mining](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining)
-- [Web Technologies](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies)
-- [R-Programming](https://github.com/prabhasg03/Task-Codes/tree/R-Programming)
-# Sixth Semester(3rd Year - 2nd Semester)
-- [Big Data Analytics Lab](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining)
-- [Machine Learning Lab](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies)
-- [Mini-Project](https://github.com/prabhasg03/Task-Codes/tree/R-Programming)
+<p>
+  It is an academic mini project which is done by me, Akash Paul Reddy Sama, Vasisht Kumar Miryalkar. The project's title is IoT based air pollution monitoring system
+</p>
+# Abstract
+The aim of this work is to take up the burning issue of air pollution by designing an IoT-based air quality monitoring system. Integration of sensors, microcontrollers, and web server technologies in the structure allows tracking real-time pollution from a distant location. The significance that draws from this paper is, therefore, the provision of a cheap and easily available option regarding monitoring and controlling air pollution, which might also be applied in environmental monitoring and health. This basically means having a system to help keep the air quality in check, regardless of one's location, and alert the individual if the pollution surpasses the recommended limits.Through this, they are looking at how they can combine some essentials - sensors, microcontrollers, and web server technology - to facilitate instant tracking and access from a distance. The problem it solves is the lack of enough methods for monitoring air purity in a faster way and also the need to be able to check for pollutants at a distant place. The output of the sensor gets calibrated to give an accurate reading. It interfaces through the library with MQ135, MQ2, DHT11 sensors. Through Serial Communication and Flask, it shows in an html page in a real-time base, data of the air quality readable from any browser.
+# Video Explanation
+https://github.com/user-attachments/assets/f7eecf73-307f-49d1-9127-5e5d5ba74734
