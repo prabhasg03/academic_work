@@ -22,6 +22,8 @@ in Computer Science and Engineering(AIML).The work is divided into branches. Ple
 - [Big Data Analytics Lab](https://github.com/prabhasg03/Task-Codes/tree/Big-Data-Analytics-Lab)
 - [Machine Learning Lab](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab)
 - [Mini-Project](https://github.com/prabhasg03/Task-Codes/tree/Mini-Project)
-# Seventh Semester(4th Year - 1st Semester)(Now):
+# Seventh Semester(4th Year - 1st Semester):
 - [Cryptography and Network Security Lab](https://github.com/prabhasg03/academic_work/tree/Cryptography-and-Network-Security-Lab)
 - [Deep Learning Lab](https://github.com/prabhasg03/academic_work/tree/Deep-Learning-Lab)
+# Eighth Semester(4th Year - 2nd Semester)(Now):
+- [Major Project](https://github.com/prabhasg03/Task-Codes/tree/)
