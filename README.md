@@ -26,4 +26,4 @@ in Computer Science and Engineering(AIML).The work is divided into branches. Ple
 - [Cryptography and Network Security Lab](https://github.com/prabhasg03/academic_work/tree/Cryptography-and-Network-Security-Lab)
 - [Deep Learning Lab](https://github.com/prabhasg03/academic_work/tree/Deep-Learning-Lab)
 # Eighth Semester(4th Year - 2nd Semester)(Now):
-- [Major Project](https://github.com/prabhasg03/Task-Codes/tree/)
+- [Major Project](https://github.com/prabhasg03/academic_work/tree/Major-Project)
