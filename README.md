@@ -1,29 +1,70 @@
-```
-This repository contains the academic work I completed during my Bachelor of Technology degree
-in Computer Science and Engineering(AIML).The work is divided into branches. Please check them below:
-```
-# First Semester(1st Year - 1st Semester)
-- [Programming for Problem Solving using C(PPS)](https://github.com/prabhasg03/Task-Codes/tree/C-language)
-# Second Semester(1st Year - 2nd Semester)
-- [Data Structures using C (DS)](https://github.com/prabhasg03/Task-Codes/tree/DS-using-C)
-# Third Semester(2nd Year - 1st Semester)
-- [Java Programming(JP)](https://github.com/prabhasg03/Task-Codes/tree/Java)
-- [Scripting Language Lab(SLL)](https://github.com/prabhasg03/Task-Codes/tree/SLL(Scripting-Language-Lab))
-- [Database Management Systems(DBMS)](https://github.com/prabhasg03/Task-Codes/tree/DBMS)
-# Fourth Semester(2nd Year - 2nd Semester)
-- [Python Programming(PP)](https://github.com/prabhasg03/Task-Codes/tree/Python)
-- [Operating System(OS)](https://github.com/prabhasg03/Task-Codes/tree/OS(Operating-System))
-- [Visual Programming using C# and .NET Lab](https://github.com/prabhasg03/Task-Codes/tree/VP-Lab)
-# Fifth Semester(3rd Year - 1st Semester)
-- [Data Warehousing and Data Mining](https://github.com/prabhasg03/Task-Codes/tree/Data-Warehousing-and-Data-Mining)
-- [Web Technologies](https://github.com/prabhasg03/Task-Codes/tree/Web-Technologies)
-- [R-Programming](https://github.com/prabhasg03/Task-Codes/tree/R-Programming)
-# Sixth Semester(3rd Year - 2nd Semester)
-- [Big Data Analytics Lab](https://github.com/prabhasg03/Task-Codes/tree/Big-Data-Analytics-Lab)
-- [Machine Learning Lab](https://github.com/prabhasg03/Task-Codes/tree/Machine-Learning-Lab)
-- [Mini-Project](https://github.com/prabhasg03/Task-Codes/tree/Mini-Project)
-# Seventh Semester(4th Year - 1st Semester):
-- [Cryptography and Network Security Lab](https://github.com/prabhasg03/academic_work/tree/Cryptography-and-Network-Security-Lab)
-- [Deep Learning Lab](https://github.com/prabhasg03/academic_work/tree/Deep-Learning-Lab)
-# Eighth Semester(4th Year - 2nd Semester)(Now):
-- [Major Project](https://github.com/prabhasg03/Task-Codes/tree/)
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
