@@ -1,7 +1,5 @@
 # Smart Grid Monitoring System
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A real-time monitoring system for smart grid stability and anomaly detection using machine learning.
 
 ## Features
