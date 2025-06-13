@@ -44,7 +44,3 @@ npm start
 - [Model Details](documentation/models.md)
 - [Frontend Guide](documentation/frontend.md)
 - [Deployment](documentation/deployment.md)
-
-## License
-
-MIT License - See [LICENSE](LICENSE) for details
