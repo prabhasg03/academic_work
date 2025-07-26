@@ -1,4 +1,4 @@
-# Smart Grid Monitoring System
+# Anomaly detection Smart Grid Monitoring System
 
 A real-time monitoring system for smart grid stability and anomaly detection using machine learning.
 
